@@ -96,6 +96,15 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'leap-visma-expense',
+        path: 'leap-visma-expense/docs',
+        routeBasePath: 'leap-visma-expense',
+        sidebarPath: './sidebars-leap-visma-expense.ts',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'legal',
         path: 'legal/docs',
         routeBasePath: 'legal',
@@ -149,6 +158,13 @@ const config: Config = {
           label: 'Visma Payroll Import',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'leapVismaExpenseSidebar',
+          docsPluginId: 'leap-visma-expense',
+          position: 'left',
+          label: 'Visma Expense Import',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
         },
@@ -171,6 +187,10 @@ const config: Config = {
             {
               label: 'Visma Payroll Import',
               to: '/leap-visma-payroll/intro',
+            },
+            {
+              label: 'Visma Expense Import',
+              to: '/leap-visma-expense/intro',
             },
           ],
         },

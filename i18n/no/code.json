@@ -35,6 +35,14 @@
     "message": "Komplett lønnsintegrasjonsløsning som automatisk importerer lønnstransaksjoner fra Visma Payroll til Business Central med bokføring mot finans og mulighet for kontotilordning.",
     "description": "Description for Visma Payroll Import feature"
   },
+  "homepage.features.visma-expense.title": {
+    "message": "Visma Expense Import",
+    "description": "Title for Visma Expense Import feature"
+  },
+  "homepage.features.visma-expense.description": {
+    "message": "Strømlinjeformet utleggshåndtering som automatisk importerer godkjente reiseregninger og utlegg fra Visma Expense for sømløs prosjekt- og finansbokføring i Business Central.",
+    "description": "Description for Visma Expense Import feature"
+  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"
