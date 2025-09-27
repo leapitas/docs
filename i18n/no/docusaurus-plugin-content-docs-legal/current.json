@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Gjeldende",
+    "description": "The label for version current"
+  },
+  "sidebar.legalSidebar.category.Privacy & Data Protection": {
+    "message": "Personvern og databeskyttelse",
+    "description": "The label for category Privacy & Data Protection in sidebar legalSidebar"
+  },
+  "sidebar.legalSidebar.category.Terms & Agreements": {
+    "message": "Vilkår og avtaler",
+    "description": "The label for category Terms & Agreements in sidebar legalSidebar"
+  }
+}

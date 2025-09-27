@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(npx create-docusaurus:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm run build:*)",
+      "Bash(timeout 10 npm start)",
+      "WebFetch(domain:leapitas.atlassian.net)",
+      "Bash(npm install:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(npm run serve:*)",
+      "Bash(find:*)",
+      "Bash(rm:*)",
+      "Bash(npx docusaurus serve:*)",
+      "Bash(npx docusaurus write-translations:*)",
+      "Bash(npm start)",
+      "Bash(cp:*)",
+      "Bash(git config:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

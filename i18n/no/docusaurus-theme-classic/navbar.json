@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.Leap Sign": {
+    "message": "Leap Sign",
+    "description": "Navbar item with label Leap Sign"
+  },
+  "item.label.Visma Employees": {
+    "message": "Visma Employees Import",
+    "description": "Navbar item with label Visma Employees"
+  },
+  "item.label.Visma Payroll": {
+    "message": "Visma Payroll Import",
+    "description": "Navbar item with label Visma Payroll"
+  },
+  "logo.alt": {
+    "message": "Leap IT Logo",
+    "description": "The alt text of navbar logo"
+  }
+}

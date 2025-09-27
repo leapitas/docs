@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "Gjeldende",
+    "description": "The label for version current"
+  },
+  "sidebar.leapSignSidebar.category.Electronic Signature Providers": {
+    "message": "Elektroniske signaturleverandører",
+    "description": "The label for category Electronic Signature Providers in sidebar leapSignSidebar"
+  }
+}

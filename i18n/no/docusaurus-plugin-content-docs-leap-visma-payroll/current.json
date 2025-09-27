@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Gjeldende",
+    "description": "The label for version current"
+  },
+  "sidebar.leapVismaPayrollSidebar.category.Installasjon": {
+    "message": "Installasjon",
+    "description": "The label for category Installasjon in sidebar leapVismaPayrollSidebar"
+  },
+  "sidebar.leapVismaPayrollSidebar.category.Oppsett": {
+    "message": "Oppsett",
+    "description": "The label for category Oppsett in sidebar leapVismaPayrollSidebar"
+  },
+  "sidebar.leapVismaPayrollSidebar.category.Bruk": {
+    "message": "Bruk",
+    "description": "The label for category Bruk in sidebar leapVismaPayrollSidebar"
+  }
+}

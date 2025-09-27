@@ -1,0 +1,17 @@
+{
+  "leapSignSidebar": [
+    "intro",
+    "setup-provider",
+    {
+      "type": "category",
+      "label": "Elektroniske signaturleverandører",
+      "collapsed": false,
+      "items": [
+        "visma-sign"
+      ]
+    },
+    "signing-document-overview",
+    "create-signing-document",
+    "sign-sales-documents"
+  ]
+}

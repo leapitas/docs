@@ -1,0 +1,13 @@
+{
+  "legalSidebar": [
+    "intro",
+    {
+      "type": "category",
+      "label": "Personvern og databeskyttelse",
+      "collapsed": false,
+      "items": [
+        "privacy-policy"
+      ]
+    }
+  ]
+}
