@@ -8,7 +8,7 @@ For å fullføre integrasjonen må Leap Visma Payroll Import også installeres o
 - Alternativt: Gå til Visma Home og klikk på "App Store"
 
 :::warning App Store ikke tilgjengelig?
-Dersom Visma App Store ikke er tilgjengelig, se [veiledning for å aktivere Visma App Store](/leapit-docs/no/leap-visma-employees/activate-app-store).
+Dersom Visma App Store ikke er tilgjengelig, se [veiledning for å aktivere Visma App Store](/no/leap-visma-employees/activate-app-store).
 :::
 
 ### 2. Finn og installer appen
