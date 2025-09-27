@@ -67,11 +67,29 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/leap-visma-payroll/intro',
   },
+  {
+    title: translate({
+      id: 'homepage.features.visma-expense.title',
+      message: 'Visma Expense Import',
+      description: 'Title for Visma Expense Import feature',
+    }),
+    image: 'img/expense-logo-final.png',
+    description: (
+      <>
+        {translate({
+          id: 'homepage.features.visma-expense.description',
+          message: 'Streamlined expense management that automatically imports approved travel expenses and disbursements from Visma Expense for seamless project and financial posting in Business Central.',
+          description: 'Description for Visma Expense Import feature',
+        })}
+      </>
+    ),
+    link: '/leap-visma-expense/intro',
+  },
 ];
 
 function Feature({title, image, description, link}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <Link to={link} className={styles.featureLink}>
         <div className="text--center">
           <img src={image} className={styles.featureSvg} role="img" alt={title} />

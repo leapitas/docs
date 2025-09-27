@@ -16,7 +16,8 @@
       "Bash(npx docusaurus write-translations:*)",
       "Bash(npm start)",
       "Bash(cp:*)",
-      "Bash(git config:*)"
+      "Bash(git config:*)",
+      "Read(//c/Users/sigur/Downloads/**)"
     ],
     "deny": [],
     "ask": []
