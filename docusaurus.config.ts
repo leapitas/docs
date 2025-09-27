@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://leapitas.github.io',
+  url: 'https://docs.leapit.no',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/leapit-docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'leapitas', // Usually your GitHub org/user name.
-  projectName: 'leapit-docs', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
