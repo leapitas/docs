@@ -18,7 +18,9 @@
       "Bash(cp:*)",
       "Bash(git config:*)",
       "Read(//c/Users/sigur/Downloads/**)",
-      "WebFetch(domain:docusaurus.io)"
+      "WebFetch(domain:docusaurus.io)",
+      "Bash(curl:*)",
+      "Bash(npm run clear:*)"
     ],
     "deny": [],
     "ask": []

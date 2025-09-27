@@ -39,13 +39,11 @@ const config: Config = {
         label: 'English',
         direction: 'ltr',
         htmlLang: 'en-US',
-        baseUrl: '/en-US/',
       },
       'nb-NO': {
         label: 'Norsk',
         direction: 'ltr',
         htmlLang: 'nb-NO',
-        baseUrl: '/nb-NO/',
       },
     },
   },
