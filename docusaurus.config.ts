@@ -26,23 +26,26 @@ const config: Config = {
   projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
+  trailingSlash: true,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'no'],
+    defaultLocale: 'en-US',
+    locales: ['en-US', 'nb-NO'],
     localeConfigs: {
-      en: {
+      'en-US': {
         label: 'English',
         direction: 'ltr',
         htmlLang: 'en-US',
+        baseUrl: '/en-US/',
       },
-      no: {
+      'nb-NO': {
         label: 'Norsk',
         direction: 'ltr',
-        htmlLang: 'no-NO',
+        htmlLang: 'nb-NO',
+        baseUrl: '/nb-NO/',
       },
     },
   },

@@ -17,7 +17,8 @@
       "Bash(npm start)",
       "Bash(cp:*)",
       "Bash(git config:*)",
-      "Read(//c/Users/sigur/Downloads/**)"
+      "Read(//c/Users/sigur/Downloads/**)",
+      "WebFetch(domain:docusaurus.io)"
     ],
     "deny": [],
     "ask": []
