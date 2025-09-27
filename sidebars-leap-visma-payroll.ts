@@ -20,6 +20,7 @@ const sidebars: SidebarsConfig = {
         'setup-payroll-import',
         'account-mapping',
         'dimension-mapping',
+        'vat-number-mapping',
       ],
     },
     {

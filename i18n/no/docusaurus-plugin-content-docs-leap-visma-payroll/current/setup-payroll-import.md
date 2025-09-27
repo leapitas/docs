@@ -54,6 +54,12 @@ Søk etter **"Oppsett for Visma lønnsimport"** direkte i Business Central.
 | **Hopp over** | Ignorerer manglende dimensjoner og fortsetter import |
 | **Opprett** | Oppretter automatisk manglende dimensjoner/verdier |
 
+## MVA-innstillinger
+
+| Felt | Beskrivelse |
+|------|-------------|
+| **Importer MVA-numre** | Avgjør om MVA-numre skal importeres fra Visma Payroll. Når aktivert vil systemet hente MVA-koder for transaksjoner som har dette. **Advarsel**: Denne funksjonen krever tilleggstillatelser og vil gjøre import tregere da systemet må gjøre ekstra API-kall for hver transaksjon |
+
 ## Transaksjonsinnstillinger
 
 | Felt | Beskrivelse |
@@ -67,3 +73,4 @@ Søk etter **"Oppsett for Visma lønnsimport"** direkte i Business Central.
 | **Test tilkoblingen** | Ved å trykke her forsøkes det å gjøre en oppkobling mot Visma Payroll for å verifisere at oppsettet er korrekt |
 | **Kontotilordning** | Benyttes for å gjøre knytning mellom finanskonto i Visma og finanskonto i Business Central der hvor disse ikke samsvarer eller man vil overstyre kontonummer i Business Central |
 | **Dimensjonstilordning** | Benyttes for å gjøre knytning mellom dimensjon i Visma og dimensjonsverdi i Business Central der hvor disse ikke samsvarer eller man vil overstyre kontonummer i Business Central |
+| **MVA-nummertilordning** | Benyttes for å gjøre knytning mellom MVA-numre i Visma Payroll og MVA-numre i Business Central der hvor disse ikke samsvarer eller man vil overstyre MVA-numre i Business Central |

@@ -54,6 +54,12 @@ Search for **"Setup for Visma payroll import"** directly in Business Central.
 | **Skip** | Ignores missing dimensions and continues import |
 | **Create** | Automatically creates missing dimensions/values |
 
+## VAT settings
+
+| Field | Description |
+|-------|-------------|
+| **Import VAT Numbers** | Determines whether VAT numbers should be imported from Visma Payroll. When enabled, the system will fetch VAT codes for transactions that support VAT registration. **Warning**: This feature requires additional permissions and will slow down imports as the system needs to make extra API calls for each applicable transaction |
+
 ## Transaction settings
 
 | Field | Description |
@@ -67,3 +73,4 @@ Search for **"Setup for Visma payroll import"** directly in Business Central.
 | **Test connection** | By clicking here an attempt is made to connect to Visma Payroll to verify that the setup is correct |
 | **Account mapping** | Used to create mapping between general ledger account in Visma and general ledger account in Business Central where these do not match or you want to override account number in Business Central |
 | **Dimension mapping** | Used to create mapping between dimension in Visma and dimension value in Business Central where these do not match or you want to override account number in Business Central |
+| **VAT Number mapping** | Used to create mapping between VAT numbers in Visma Payroll and VAT numbers in Business Central where these do not match or you want to override VAT numbers in Business Central |
