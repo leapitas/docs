@@ -22,7 +22,8 @@
       "Bash(curl:*)",
       "Bash(npm run clear:*)",
       "Bash(npx docusaurus:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(git log:*)"
     ],
     "deny": [],
     "ask": []

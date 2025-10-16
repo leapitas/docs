@@ -10,6 +10,7 @@ This is a Docusaurus v3 documentation website for Leap IT AS, replacing their pr
 
 ### Products Documented
 - **Leap Sign**: Digital signature solution for Business Central
+- **Leap EHF**: Electronic invoicing solution for PEPPOL network with Business Central integration
 - **Leap Visma Employees Import**: Employee data synchronization between Visma HRM and Business Central
 - **Leap Visma Payroll Import**: Payroll transaction import from Visma Payroll to Business Central
 - **Legal Documents**: Privacy Policy, EULA, and other legal content
@@ -44,6 +45,7 @@ This is a Docusaurus v3 documentation website for Leap IT AS, replacing their pr
 ### English Content Locations
 - `docs/`: Main getting started docs
 - `leap-sign/docs/`: Leap Sign documentation
+- `leap-ehf/docs/`: Leap EHF documentation
 - `leap-visma-employees/docs/`: Employee import docs
 - `leap-visma-payroll/docs/`: Payroll import docs
 - `legal/docs/`: Legal documents
@@ -51,6 +53,7 @@ This is a Docusaurus v3 documentation website for Leap IT AS, replacing their pr
 ### Norwegian Content Locations
 - `i18n/no/docusaurus-plugin-content-docs/current/`: Main docs
 - `i18n/no/docusaurus-plugin-content-docs-leap-sign/current/`: Leap Sign (Norwegian)
+- `i18n/no/docusaurus-plugin-content-docs-leap-ehf/current/`: Leap EHF (Norwegian)
 - `i18n/no/docusaurus-plugin-content-docs-leap-visma-employees/current/`: Employee import (Norwegian)
 - `i18n/no/docusaurus-plugin-content-docs-leap-visma-payroll/current/`: Payroll import (Norwegian)
 - `i18n/no/docusaurus-plugin-content-docs-legal/current/`: Legal docs (Norwegian)
@@ -72,6 +75,7 @@ This is a Docusaurus v3 documentation website for Leap IT AS, replacing their pr
 Each product uses its own sidebar file:
 - `sidebars.ts`: Main docs
 - `sidebars-leap-sign.ts`: Leap Sign
+- `sidebars-leap-ehf.ts`: Leap EHF
 - `sidebars-leap-visma-employees.ts`: Employee import
 - `sidebars-leap-visma-payroll.ts`: Payroll import
 - `sidebars-legal.ts`: Legal documents
@@ -127,6 +131,7 @@ All content was migrated from Confluence with these transformations:
 
 ### Product Integration
 - **Leap Sign**: Uses Visma Sign as signature provider
+- **Leap EHF**: Electronic invoicing via PEPPOL network with PEPPOL 3.0 compliance
 - **Visma Imports**: Connect to Visma HRM/Payroll systems via API
 - **Legal Compliance**: Norwegian law jurisdiction, GDPR compliant
 

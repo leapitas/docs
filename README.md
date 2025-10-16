@@ -5,6 +5,7 @@ This repository contains the comprehensive documentation website for all Leap IT
 ## Products Covered
 
 - **Leap Sign**: Digital signature solution
+- **Leap EHF**: Electronic invoicing solution for PEPPOL network
 - **Leap Visma Employees Import**: Employee data synchronization with Visma
 - **Leap Visma Payroll Import**: Payroll data integration with Visma
 - **Legal Documents**: Privacy policy, EULA, terms of service
@@ -51,6 +52,7 @@ The site is configured to use the custom domain `docs.leapit.com`. To set this u
 company-docs/
 ├── docs/                           # Main documentation (getting started)
 ├── leap-sign/docs/                 # Leap Sign documentation
+├── leap-ehf/docs/                  # Leap EHF documentation
 ├── leap-visma-employees/docs/      # Visma Employees Import documentation
 ├── leap-visma-payroll/docs/        # Visma Payroll Import documentation
 ├── legal/docs/                     # Legal documents
