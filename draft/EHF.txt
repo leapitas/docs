@@ -1,0 +1,170 @@
+# Leap EHF Setup
+
+## Om Leap EHF 
+Leap EHF er en applikasjon for Microsoft Dynamics 365 Business Central, som gir din bedrift en komplett løsning for elektronisk fakturering (EHF) via PEPPOL-nettverket. Med støtte for PEPPOL 3.0 og full tilpasning til norske standarder, sørger Leap EHF for en smidig og automatisert håndtering av e-dokumenter. 
+
+### Nøkkelfunksjoner:
+Tilpasset PEPPOL 3.0: Validering av fakturaformat i henhold til norske krav, inkludert støtte for KID-nummer.
+Status og kvitteringer: Hold oversikt over oversendte meldinger med sanntidsoppdateringer av status og kvitteringer.
+Multikanal: Fakturadistribusjon i ulike kanaler.
+Business Central-integrasjon: Fullt tilpasset Business Central sin standardfunksjonalitet for administrasjon av e-dokumenter.
+Oppslag mot Peppol-registeret (Peppol Directory): Med oppslag mot PEPPOL Directory kan systemet verifisere at mottakeren er tilknyttet PEPPOL-nettverket
+PDF-vedlegg inkludert: Send fakturaer som PDF-vedlegg for å sikre at mottakeren får all nødvendig informasjon.
+Ekstra vedlegg: Legg til andre vedlegg som timelister, eller kontrakter som sendes som tilleggsvedlegg sammen med EHF-en.
+ 
+
+### Hvorfor velge Leap EHF?
+Leap EHF gjør det enklere for bedrifter å håndtere elektroniske fakturaer og dokumenter, samtidig som det gir deg full kontroll over oversendelser. Løsningen er spesielt utviklet for Business Central, og er tilpasset de kravene som gjelder i markedet i dag.
+Med Leap EHF kan du automatisere faktureringsprosesser, forbedre kommunikasjonen med dine kunder, og sørge for at alle e-dokumenter er i henhold til gjeldende standarder.
+
+## Teknisk installasjon
+Krever tre apper som må installeres på kundens miljø. Disse appene vil bli tilsendt ved bestilling av produktet. 
+1. Leap Logiq Api Client - Appen inneholder kommunkasjonslaget som er nødvendig for å kommunisere med meldingssentralen.
+2. Leap E-Document Format Peppol Bis 3.0 (Attachment) - Legger til EHF 3.0 med vedlegg som et nytt valg for e-dokumenttjenester. 
+3. Leap E-Document Service Logiq Api - Legger til Logiq Api som et nytt valg for e-dokumenttjenester.  
+4. Leap Peppol Lookup - (Valgfri) Lar deg oppdatere profil for dokumentsending automatisk på kunder basert på om de er registrert i Peppol-registeret.
+
+Leap Logiq Api Client må installeres først. Deretter er det vilkårlig hvilken rekkefølge de andre appene installeres i. 
+
+## Oppsett i Business Central
+
+### Oppsett av E-dokumenttjeneste
+Gå til E-dokument tjenester.
+Trykk på Ny.
+Gi E-dokumenttjenesten en Kode, feks "EHF".
+Gi E-dokumenttjenesten en Beskrivelse, feks "EHF med vedlegg".
+I Dokumentformat, angi "PEPPOL BIS 3.0 med Vedlegg".
+I Tjenesteintegrering angi "Logiq api".
+
+Trykk deretter på "Konfigurer dokumenter som skal eksporteres".
+Legg inn følgende 4 rader:
+- Salgsfaktura
+- Salgskreditnota
+- Servicefaktura
+- Servicekreditnota
+
+Gå tilbake til Kortet for E-dokumentjenesten.
+Trykk deretter på "Konfigurer tjenesteintegrering".
+Legg inn verdier i feltene
+- Brukernavn
+- Passord
+- Klient-inkludert
+- Klienthemmelighet
+Verdiene du må legge inn i feltene vil bli tilsendt ved bestilling av produktet. 
+
+### Oppsett av arbeidsflyt
+Søk etter "Arbeidsflyter" i søkemenyen og åpne tilhørende lenke.
+Trykk på knapp "Ny arbeidsflyt fra mal".
+I vinduet som kommer opp, velg "Send til én tjeneste" under E-dokument.
+
+Info! Dersom du ikke får opp valget "Send til én tjeneste" gjør du følgende:
+Søk etter "Arbeidsflytmaler" i søkemenyen og åpne tilhørende lenke.
+Under Handlinger velg "Tilbakestill Microsoft-maler".
+Valget bør nå dukke opp i listen.
+
+Klikk deg inn på arbeidsflyten som ble opprettet og gjør følgende:
+- Gi arbeidsflyten en Kode feks "EHF".
+- Gi arbeidsflyten en Beskrivelse feks "EHF med vedlegg".
+- På Raden som ligger under Arbeidsflyttrinn trykk på cellen i kolonnen "Så svar".
+- I vinduet som kommer opp, i felt "E-dokumenttjeneste" velg e-dokumenttjenesten du opprettet tidligere. Trykk deretter OK.
+- Huk av for Aktivert på arbeidsflyten. 
+
+### Oppsett av profil for dokumenttjeneste
+- Søk etter "Profiler for dokumentsending" og trykk på tilhørende lenke. 
+- Trykk på Ny.
+- Gi profilen en Kode, feks "EHF".
+- Gi profilen en Beskrivelse, feks "EHF med vedlegg".
+- Under Sendealternativer, i felt "Elektronisk dokument" velg "Utvidet e-dokumenttjenesteflyt".
+- I felt "Flytkode for elektronisk dokumenttjeneste" velg Arbeidsflyten du opprettet tidligere.
+
+Du kan nå legge opp kunder du ønsker skal motta EHF med denne profilen ved å legge den inn på kundekortet i felt "Profil for dokumentsending".
+
+### Tilknyttede Oppsett
+#### Enheter
+Internasjonal standardkode.
+Sjekk at enheter du benytter har utfylt verdi i feltet "internasjonal standardkode". For en full liste av mulige verdier se https://docs.peppol.eu/pracc/catalogue/1.0/codelist/UNECERec20/.
+
+#### Land/Områder
+Sjekk at land du ønsker å sende EHF-bilag til har verdi i feltet MVA-skjema. For Norge skal 0192 benyttes. For en full liste av mulige verdier se https://docs.peppol.eu/edelivery/codelists/old/v8.0/Peppol%20Code%20Lists%20-%20Participant%20identifier%20schemes%20v8.0.html.
+
+#### MVA-bokføringsoppsett
+Sjekk at mva-konfigurasjonene du benytter har utfylt verdi i feltet Avgiftskategori. For en full liste over mulige verdier se https://docs.peppol.eu/pracc/catalogue/1.0/codelist/UNCL5305/.
+
+
+### Oppdatering av profiler basert på Peppol 
+For å gjøre det enklere å avgjøre om kunder skal motta EHF kan du gjøre en automatisk sjekk mot Peppol-registeret. Dersom kunden har registrert seg som mottaker av EHF skal de dukke opp i registeret.
+
+- Søk på "Peppol Register Oppsett" i søkemenyen og trykk på tilhørende lenke.
+- I felt "Profil for dokumentsending - Peppol" legg inn profilen du opprettet for sending av EHF.
+- I felt "Profil for dokumentsending - Andre" legg inn ønsket profil, feks profil for sending av bilag på e-post. 
+- Huk av i felt "Aktiv".
+
+Når du nå legger inn nye kunder og har fylt ut både organisasjonsnummer og lands-/områdekode, vil systemet gjøre oppslag mot Peppol-registeret og automatisk angi profil for dokumentsending avhengig av om kunden er registrert, eller ikke.
+
+Det er også mulig å kjøre oppslaget som en masseoppdatering av kunder.
+- Søk på "Peppol register oppdatering" i søkemenyen og trykk på tilhørende lenke.
+- Legg inn ønskede filter dersom du kun ønsker å oppdatere spesifikke kunder. Hvis du ønsker å kjøre for alle kunder, trykker du OK.
+
+### Sende med andre typer vedlegg sammen med EHF 
+Hvis du ønsker å sende med andre type vedlegg enn fakturakopi kan dette aktiveres på følgende måte.
+- Søk på "Logiq oppsett" i søkemenyen og trykk på tilhørende lenke. 
+- Under Valg for Peppol format, huk av for "Legg til vedlegg".
+
+Vedlegg som er lagt inn på salgsbilaget vil nå legges ved som del av EHF-bilaget som genereres. Alle vedlegg legges til som standardvalg, men det er mulig å ekskludere spesifikke vedlegg ved å navigere til vedleggslisten. 
+Følgende filtyper kan legges til som vedlegg:
+.csv
+.pdf
+.png
+.jpeg
+.jpg
+.xlsx
+.ods
+
+### Multikanal (Mangler)
+Multikanal er en løsning som kan aktiveres slik at meldingssentralen tar over ansvaret for hvilken kanal (EHF (Peppol), E-post, eller print) som skal benyttes for kunden. 
+Du kan selv velge hvilke kanaler du ønsker å benytte. Sending via e-post har samme transaksjonspris som ved sending på EHF, men utskrift og sending via post koster mer. Se https://www.leapit.no/product/ehf for oppdaterte priser.
+Tjenesten vil først forsøke å sende som EHF. Dersom kunden ikke kan motta bilag som EHF forsøkes deretter e-post. Dersom sending på e-post ikke kan utføres, som oftest fordi det ikke er lagt inn en e-postadresse på kundekortet, så forsøkes det å sendes som brev.
+For å sende som brev må adresseinformasjon være fullstendig utfylt på kundekortet. 
+
+Hvis du ønsker å aktivere multikanal gjør du følgende: 
+- Søk på "Logiq oppsett" i søkemenyen og trykk på tilhørende lenke. 
+- Under Multikanal, huk av for "Bruk multikanal".
+- Under Kanaler, velg de kanalene du ønsker at bilag skal sendes på. 
+
+## Bruk
+
+### Sende bilag som EHF
+Når du nå bokfører bilag som resulterer i enten en bokført salgsfaktura, bokført salgskreditnota, bokført servicefaktura, eller bokført servicekreditnota vil det automatisk sendes EHF til kunden.
+Dette vil skje uavhengig av om du velger Bokfør, eller bokfør og send. 
+
+Dersom du åpner listen "Bokførte salgsfakturaer", eller "Bokførte salgskreditnotaer" vil du se en egen kolonne "E-Dokument Status".
+
+### Oppfølging fra rollesenter
+#### Fliser på rollesenter
+Det er tilgjengeliggjort fliser på rollesenter. Rollesentrene som har dette tilgjengelig er:
+- Forretningsleder
+- Kundeansvarlig
+- Ordrebehandler
+
+Du kan her se fliser som summerer opp antall e-dokumenter som er behandlet og feilet denne månedet. Du kan også se antall e-dokumenter som er pågående. 
+
+#### Marker e-dokumenter som manuelt sjekket
+Fra E-dokumenter kan du markere e-dokumenter som manuelt sjekket for å skjule dem fra flisene på rollesenteret. Dette kan være nyttig dersom e-bilagene feilet fordi mottakeren ikke er registrert i Peppol-registeret. 
+Da vil bilaget bli liggende som feilet uten noen måte å slette e-dokumentet. Trykk på knappen "Angi manuelt sjekket" i båndet for å merke bilagene. Du kan også trykke på knappen på nytt for å fjerne merkingen igjen.
+
+### Feilsøking av feilede bilag 
+Dersom et bilag feiler vil dette synliggjøres flere steder i systemet.
+- Liste for bokført salgsfaktura og bokført salgskreditnota. E-dokumentstatus vil da være satt til Feil. Du kan trykke i kolonnen for å åpne e-dokumentkortet og se feilmeldingen.
+- Flis på rollesenter. Du kan trykke på flisen og få opp en liste over E-dokumenter som har feilet. 
+- Søk på E-dokumenter i søkemenyen og trykk på tilhørende lenke. E-dokumenter vil være merket med "Feil" i kolonne "Status for elektronisk dokument".
+
+#### Sende dokument på nytt
+Dersom det mangler oppsett som feks mva-skjema på land/områder så kan det være at EHF bilag vil feile under sending. I slike tilfeller kan man regenerere EHF-bilaget og sende på nytt etter man har
+korrigert oppsettet. 
+- Naviger til E-dokumentet som har feilet og trykk deg deretter inn på E-dokumentkortet.
+- Trykk på "Opprett dokument på nytt". Dette vil regenerere EHF-en og ta hensyn til eventuelle endringer som er gjort i oppsett.
+- Trykk på "Send dokument". Dette vil sende det nygenererte bilaget til meldingssentralen.
+
+#### Vanlige feilmeldinger
+Exchange not found - Denne feilmelding tilsier som regel at mottakeren av bilaget ikke er registrert i Peppol-registeret. Bilaget må da sendes via en annen kanal som foreksempel e-post.
+
