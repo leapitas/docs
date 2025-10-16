@@ -43,6 +43,14 @@
     "message": "Strømlinjeformet utleggshåndtering som automatisk importerer godkjente reiseregninger og utlegg fra Visma Expense for sømløs prosjekt- og finansbokføring i Business Central.",
     "description": "Description for Visma Expense Import feature"
   },
+  "homepage.features.leap-ehf.title": {
+    "message": "Leap EHF",
+    "description": "Title for Leap EHF feature"
+  },
+  "homepage.features.leap-ehf.description": {
+    "message": "Komplett løsning for elektronisk fakturering via PEPPOL-nettverket. Full PEPPOL 3.0-støtte med multikanaldistribusjon, PDF-vedlegg og automatisk oppslag i PEPPOL-registeret.",
+    "description": "Description for Leap EHF feature"
+  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"

@@ -20,7 +20,9 @@
       "Read(//c/Users/sigur/Downloads/**)",
       "WebFetch(domain:docusaurus.io)",
       "Bash(curl:*)",
-      "Bash(npm run clear:*)"
+      "Bash(npm run clear:*)",
+      "Bash(npx docusaurus:*)",
+      "Bash(node:*)"
     ],
     "deny": [],
     "ask": []

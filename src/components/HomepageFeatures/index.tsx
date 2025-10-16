@@ -85,11 +85,29 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/leap-visma-expense/intro',
   },
+  {
+    title: translate({
+      id: 'homepage.features.leap-ehf.title',
+      message: 'Leap EHF',
+      description: 'Title for Leap EHF feature',
+    }),
+    image: 'img/leapehf-logo-final.png',
+    description: (
+      <>
+        {translate({
+          id: 'homepage.features.leap-ehf.description',
+          message: 'Complete electronic invoicing solution for Business Central via the PEPPOL network. Full PEPPOL 3.0 compliance with multi-channel distribution, PDF attachments, and automated PEPPOL directory lookup.',
+          description: 'Description for Leap EHF feature',
+        })}
+      </>
+    ),
+    link: '/leap-ehf/intro',
+  },
 ];
 
 function Feature({title, image, description, link}: FeatureItem) {
   return (
-    <div className={clsx('col col--3')}>
+    <div className={clsx('col col--4')}>
       <Link to={link} className={styles.featureLink}>
         <div className="text--center">
           <img src={image} className={styles.featureSvg} role="img" alt={title} />
@@ -104,12 +122,20 @@ function Feature({title, image, description, link}: FeatureItem) {
 }
 
 export default function HomepageFeatures(): ReactNode {
+  const firstRowFeatures = FeatureList.slice(0, 3);
+  const secondRowFeatures = FeatureList.slice(3);
+
   return (
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
+          {firstRowFeatures.map((props, idx) => (
             <Feature key={idx} {...props} />
+          ))}
+        </div>
+        <div className="row" style={{justifyContent: 'center'}}>
+          {secondRowFeatures.map((props, idx) => (
+            <Feature key={idx + 3} {...props} />
           ))}
         </div>
       </div>

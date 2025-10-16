@@ -106,6 +106,15 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'leap-ehf',
+        path: 'leap-ehf/docs',
+        routeBasePath: 'leap-ehf',
+        sidebarPath: './sidebars-leap-ehf.ts',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'legal',
         path: 'legal/docs',
         routeBasePath: 'legal',
@@ -166,6 +175,13 @@ const config: Config = {
           label: 'Visma Expense Import',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'leapEhfSidebar',
+          docsPluginId: 'leap-ehf',
+          position: 'left',
+          label: 'Leap EHF',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
         },
@@ -192,6 +208,10 @@ const config: Config = {
             {
               label: 'Visma Expense Import',
               to: '/leap-visma-expense/intro',
+            },
+            {
+              label: 'Leap EHF',
+              to: '/leap-ehf/intro',
             },
           ],
         },
