@@ -88,20 +88,20 @@ const FeatureList: FeatureItem[] = [
   {
     title: translate({
       id: 'homepage.features.leap-ehf.title',
-      message: 'Leap EHF',
-      description: 'Title for Leap EHF feature',
+      message: 'Enkel EHF',
+      description: 'Title for Enkel EHF feature',
     }),
-    image: 'img/leapehf-logo-final.png',
+    image: 'img/enkelehf-logo-final.png',
     description: (
       <>
         {translate({
           id: 'homepage.features.leap-ehf.description',
           message: 'Complete electronic invoicing solution for Business Central via the PEPPOL network. Full PEPPOL 3.0 compliance with multi-channel distribution, PDF attachments, and automated PEPPOL directory lookup.',
-          description: 'Description for Leap EHF feature',
+          description: 'Description for Enkel EHF feature',
         })}
       </>
     ),
-    link: '/leap-ehf/intro',
+    link: '/enkel-ehf/intro',
   },
 ];
 

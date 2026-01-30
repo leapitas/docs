@@ -1,19 +1,27 @@
 {
-  "leapEhfSidebar": [
+  "enkelEhfSidebar": [
     "intro",
-    "technical-installation",
+    "installation",
     {
       "type": "category",
       "label": "Oppsett i Business Central",
       "collapsed": false,
       "items": [
-        "setup/e-document-service",
-        "setup/workflow",
-        "setup/document-sending-profile",
+        "setup/customer-profiles",
         "setup/related-setup",
         "setup/peppol-profile-update",
         "setup/additional-attachments",
-        "setup/multichannel"
+        "setup/multichannel",
+        {
+          "type": "category",
+          "label": "Manuelt oppsett",
+          "collapsed": true,
+          "items": [
+            "setup/e-document-service",
+            "setup/workflow",
+            "setup/document-sending-profile"
+          ]
+        }
       ]
     },
     {

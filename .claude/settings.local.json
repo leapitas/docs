@@ -23,7 +23,9 @@
       "Bash(npm run clear:*)",
       "Bash(npx docusaurus:*)",
       "Bash(node:*)",
-      "Bash(git log:*)"
+      "Bash(git log:*)",
+      "Bash(git mv:*)",
+      "Bash(git rm:*)"
     ],
     "deny": [],
     "ask": []

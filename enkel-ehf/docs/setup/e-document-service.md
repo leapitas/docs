@@ -20,14 +20,3 @@ sidebar_position: 1
    - Service Invoice
    - Service Credit Memo
 
-## Configure service integration
-
-1. Go back to the E-Document Service Card
-2. Click "**Configure service integration**"
-3. Enter values in the fields:
-   - Username
-   - Password
-   - Client ID
-   - Client Secret
-
-The values you must enter in the fields will be provided upon ordering the product.

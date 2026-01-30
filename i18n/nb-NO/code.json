@@ -44,12 +44,12 @@
     "description": "Description for Visma Expense Import feature"
   },
   "homepage.features.leap-ehf.title": {
-    "message": "Leap EHF",
-    "description": "Title for Leap EHF feature"
+    "message": "Enkel EHF",
+    "description": "Title for Enkel EHF feature"
   },
   "homepage.features.leap-ehf.description": {
     "message": "Komplett løsning for elektronisk fakturering via PEPPOL-nettverket. Full PEPPOL 3.0-støtte med multikanaldistribusjon, PDF-vedlegg og automatisk oppslag i PEPPOL-registeret.",
-    "description": "Description for Leap EHF feature"
+    "description": "Description for Enkel EHF feature"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",

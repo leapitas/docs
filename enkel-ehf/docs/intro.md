@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# About Leap EHF
+# About Enkel EHF
 
-Leap EHF is an application for Microsoft Dynamics 365 Business Central, providing your business with a complete solution for electronic invoicing (EHF) via the PEPPOL network. With support for PEPPOL 3.0 and full compliance with Norwegian standards, Leap EHF ensures smooth and automated handling of e-documents.
+Enkel EHF is an application for Microsoft Dynamics 365 Business Central, providing your business with a complete solution for electronic invoicing (EHF) via the PEPPOL network. With support for PEPPOL 3.0 and full compliance with Norwegian standards, Enkel EHF ensures smooth and automated handling of e-documents.
 
 ## Key Features
 
@@ -16,8 +16,8 @@ Leap EHF is an application for Microsoft Dynamics 365 Business Central, providin
 - **PDF attachment included**: Send invoices as PDF attachments to ensure that the recipient gets all necessary information
 - **Additional attachments**: Add other attachments such as timesheets or contracts that are sent as additional attachments together with the EHF
 
-## Why Choose Leap EHF?
+## Why Choose Enkel EHF?
 
-Leap EHF makes it easier for businesses to manage electronic invoices and documents, while giving you full control over transmissions. The solution is specifically developed for Business Central, and is adapted to the requirements that apply in the market today.
+Enkel EHF makes it easier for businesses to manage electronic invoices and documents, while giving you full control over transmissions. The solution is specifically developed for Business Central, and is adapted to the requirements that apply in the market today.
 
-With Leap EHF you can automate invoicing processes, improve communication with your customers, and ensure that all e-documents comply with current standards.
+With Enkel EHF you can automate invoicing processes, improve communication with your customers, and ensure that all e-documents comply with current standards.
