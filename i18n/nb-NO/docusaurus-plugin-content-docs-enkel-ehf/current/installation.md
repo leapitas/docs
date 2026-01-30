@@ -8,10 +8,10 @@ Enkel EHF er tilgjengelig som en app fra Microsoft Marketplace, også kjent som 
 
 ## Installasjon fra Business Central
 
-1. I Business Central, søk etter **Administrasjon av utvidelser**
-2. Klikk **Appsource Gallery**
+1. I Business Central, søk etter **Administrasjon av utvidelse**
+2. Klikk **Appsource-galleri**
 3. Søk etter **Enkel EHF** og klikk på den.
-4. Velg **Installer app** for å starte installasjonen
+4. Velg **Installer appen** for å starte installasjonen
 5. Velg språk og klikk **Installer**
 
 ## Installasjon fra AppSource
