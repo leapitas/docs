@@ -106,10 +106,10 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'leap-ehf',
-        path: 'leap-ehf/docs',
-        routeBasePath: 'leap-ehf',
-        sidebarPath: './sidebars-leap-ehf.ts',
+        id: 'enkel-ehf',
+        path: 'enkel-ehf/docs',
+        routeBasePath: 'enkel-ehf',
+        sidebarPath: './sidebars-enkel-ehf.ts',
       },
     ],
     [
@@ -176,10 +176,10 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'leapEhfSidebar',
-          docsPluginId: 'leap-ehf',
+          sidebarId: 'enkelEhfSidebar',
+          docsPluginId: 'enkel-ehf',
           position: 'left',
-          label: 'Leap EHF',
+          label: 'Enkel EHF',
         },
         {
           type: 'localeDropdown',
@@ -210,8 +210,8 @@ const config: Config = {
               to: '/leap-visma-expense/intro',
             },
             {
-              label: 'Leap EHF',
-              to: '/leap-ehf/intro',
+              label: 'Enkel EHF',
+              to: '/enkel-ehf/intro',
             },
           ],
         },

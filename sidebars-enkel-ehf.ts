@@ -1,21 +1,29 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
-  leapEhfSidebar: [
+  enkelEhfSidebar: [
     'intro',
-    'technical-installation',
+    'installation',
     {
       type: 'category',
       label: 'Setup in Business Central',
       collapsed: false,
       items: [
-        'setup/e-document-service',
-        'setup/workflow',
-        'setup/document-sending-profile',
+        'setup/customer-profiles',
         'setup/related-setup',
         'setup/peppol-profile-update',
         'setup/additional-attachments',
         'setup/multichannel',
+        {
+          type: 'category',
+          label: 'Manual Setup',
+          collapsed: true,
+          items: [
+            'setup/e-document-service',
+            'setup/workflow',
+            'setup/document-sending-profile',
+          ],
+        },
       ],
     },
     {
