@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Velkommen til Leap IT Dokumentasjon
 
-Omfattende dokumentasjon for alle Leap IT-produkter og tjenester designet for å integreres sømløst med Microsoft Dynamics 365 Business Central.
+Omfattende dokumentasjon for alle Leap IT-produkter og tjenester designet for å integreres direkte med Microsoft Dynamics 365 Business Central.
 
 ## Våre produkter
 

@@ -40,7 +40,7 @@
     "description": "Title for Visma Expense Import feature"
   },
   "homepage.features.visma-expense.description": {
-    "message": "Strømlinjeformet utleggshåndtering som automatisk importerer godkjente reiseregninger og utlegg fra Visma Expense for sømløs prosjekt- og finansbokføring i Business Central.",
+    "message": "Automatisk import av godkjente reiseregninger og utlegg fra Visma Expense for enkel prosjekt- og finansbokføring i Business Central.",
     "description": "Description for Visma Expense Import feature"
   },
   "homepage.features.leap-ehf.title": {
@@ -52,12 +52,12 @@
     "description": "Description for Enkel EHF feature"
   },
   "homepage.features.leap-freja.title": {
-    "message": "Freja Integration",
-    "description": "Title for Freja Integration feature"
+    "message": "Freja Integrasjon",
+    "description": "Title for Freja Integrasjon feature"
   },
   "homepage.features.leap-freja.description": {
-    "message": "Sømløs integrasjon mellom Business Central og Freja tredjepartslogistikk (3PL). Automatiser plukk- og mottakstildelinger, varesynkronisering og SFTP-filutveksling for komplett lagerutsetting.",
-    "description": "Description for Freja Integration feature"
+    "message": "Kobler Business Central direkte med Freja tredjepartslogistikk (3PL). Send informasjon om plukk- og mottak, varesynkronisering.",
+    "description": "Description for Freja Integrasjon feature"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",

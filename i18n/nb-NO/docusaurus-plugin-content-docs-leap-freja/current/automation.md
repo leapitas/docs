@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Automatisering og jobbkøer
 
-Freja Integration støtter automatisering av SFTP-filoverføringer og tildelingsbehandling via Business Centrals jobbkøsystem.
+Freja Integrasjon støtter automatisering av SFTP-filoverføringer og tildelingsbehandling via Business Centrals jobbkøsystem.
 
 ## Sette opp hoved-jobbkøen
 
