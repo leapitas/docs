@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# About Leap Freja
+# About Freja Integration
 
-Leap Freja is an application for Microsoft Dynamics 365 Business Central that connects Business Central with Freja Third Party Logistics (3PL) systems. It automates the exchange of warehouse operations data between the two systems, so information flows automatically without manual steps.
+Freja Integration is an application for Microsoft Dynamics 365 Business Central that connects Business Central with Freja Third Party Logistics (3PL) systems. It automates the exchange of warehouse operations data between the two systems, so information flows automatically without manual steps.
 
 ## Key Features
 
@@ -19,7 +19,7 @@ Leap Freja is an application for Microsoft Dynamics 365 Business Central that co
 
 ## How It Works
 
-When you create a sales or purchase order in Business Central, Leap Freja lets you register a corresponding **assignment** with Freja — either to pick and ship items out, or to receive items in. The assignment is sent to Freja, Freja carries out the warehouse work, and the confirmed result is automatically brought back into Business Central and applied to the original order.
+When you create a sales or purchase order in Business Central, Freja Integration lets you register a corresponding **assignment** with Freja — either to pick and ship items out, or to receive items in. The assignment is sent to Freja, Freja carries out the warehouse work, and the confirmed result is automatically brought back into Business Central and applied to the original order.
 
 There are two types of assignments:
 

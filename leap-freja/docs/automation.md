@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Automation & Job Queues
 
-Leap Freja supports automation of SFTP file transfers and assignment processing through Business Central's Job Queue system.
+Freja Integration supports automation of SFTP file transfers and assignment processing through Business Central's Job Queue system.
 
 ## Setting Up the Main Job Queue
 

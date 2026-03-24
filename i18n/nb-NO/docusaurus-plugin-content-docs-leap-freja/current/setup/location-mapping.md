@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Lokasjonskartlegging
 
-Leap Freja krever en kartlegging mellom Business Central-lokasjoner og Freja-lagerlokasjoner. Bare ordrer tilknyttet en kartlagt lokasjon kan ha Freja-tildelinger opprettet.
+Freja Integration krever en kartlegging mellom Business Central-lokasjoner og Freja-lagerlokasjoner. Bare ordrer tilknyttet en kartlagt lokasjon kan ha Freja-tildelinger opprettet.
 
 ## Freja-lokasjoner
 

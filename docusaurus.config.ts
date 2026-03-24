@@ -117,7 +117,7 @@ const config: Config = {
       {
         id: 'leap-freja',
         path: 'leap-freja/docs',
-        routeBasePath: 'leap-freja',
+        routeBasePath: 'freja-integration',
         sidebarPath: './sidebars-leap-freja.ts',
       },
     ],
@@ -195,7 +195,7 @@ const config: Config = {
           sidebarId: 'leapFrejaSidebar',
           docsPluginId: 'leap-freja',
           position: 'left',
-          label: 'Leap Freja',
+          label: 'Freja Integration',
         },
         {
           type: 'localeDropdown',
@@ -230,8 +230,8 @@ const config: Config = {
               to: '/enkel-ehf/intro',
             },
             {
-              label: 'Leap Freja',
-              to: '/leap-freja/intro',
+              label: 'Freja Integration',
+              to: '/freja-integration/intro',
             },
           ],
         },

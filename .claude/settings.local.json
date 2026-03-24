@@ -25,7 +25,8 @@
       "Bash(node:*)",
       "Bash(git log:*)",
       "Bash(git mv:*)",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "Bash(xargs sed:*)"
     ],
     "deny": [],
     "ask": []

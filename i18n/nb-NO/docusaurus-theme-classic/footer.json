@@ -31,8 +31,8 @@
     "message": "Sluttbrukeravtale",
     "description": "The label of footer link with label=EULA linking to /legal/eula"
   },
-  "link.item.label.Leap Freja": {
-    "message": "Leap Freja",
-    "description": "The label of footer link with label=Leap Freja linking to /leap-freja/intro"
+  "link.item.label.Freja Integration": {
+    "message": "Freja Integration",
+    "description": "The label of footer link with label=Freja Integration linking to /freja-integration/intro"
   }
 }

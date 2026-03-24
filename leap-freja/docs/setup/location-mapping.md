@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Location Mapping
 
-Leap Freja requires a mapping between Business Central locations and Freja warehouse locations. Only orders assigned to a mapped location can have Freja assignments created.
+Freja Integration requires a mapping between Business Central locations and Freja warehouse locations. Only orders assigned to a mapped location can have Freja assignments created.
 
 ## Freja Locations
 

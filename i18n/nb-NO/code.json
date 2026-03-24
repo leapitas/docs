@@ -52,12 +52,12 @@
     "description": "Description for Enkel EHF feature"
   },
   "homepage.features.leap-freja.title": {
-    "message": "Leap Freja",
-    "description": "Title for Leap Freja feature"
+    "message": "Freja Integration",
+    "description": "Title for Freja Integration feature"
   },
   "homepage.features.leap-freja.description": {
     "message": "Sømløs integrasjon mellom Business Central og Freja tredjepartslogistikk (3PL). Automatiser plukk- og mottakstildelinger, varesynkronisering og SFTP-filutveksling for komplett lagerutsetting.",
-    "description": "Description for Leap Freja feature"
+    "description": "Description for Freja Integration feature"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",

@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Forutsetninger
 
-Før du installerer Leap Freja, sørg for at du har følgende:
+Før du installerer Freja Integration, sørg for at du har følgende:
 
 - Microsoft Dynamics 365 Business Central (versjon 26.0 eller nyere)
 - SFTP-opplysninger for filutveksling (SFTP-serveren kan driftes av Freja eller av din egen organisasjon)
@@ -14,7 +14,7 @@ Før du installerer Leap Freja, sørg for at du har følgende:
 
 ## Installere utvidelsen
 
-Leap Freja installeres direkte i Business Central via siden for utvidelsesbehandling.
+Freja Integration installeres direkte i Business Central via siden for utvidelsesbehandling.
 
 1. Søk etter **Utvidelsesbehandling** i Business Central
 2. Klikk **Administrer** og deretter **Last opp utvidelse**

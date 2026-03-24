@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Automatisering og jobbkøer
 
-Leap Freja støtter automatisering av SFTP-filoverføringer og tildelingsbehandling via Business Centrals jobbkøsystem.
+Freja Integration støtter automatisering av SFTP-filoverføringer og tildelingsbehandling via Business Centrals jobbkøsystem.
 
 ## Sette opp hoved-jobbkøen
 

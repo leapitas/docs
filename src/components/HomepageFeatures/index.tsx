@@ -106,8 +106,8 @@ const FeatureList: FeatureItem[] = [
   {
     title: translate({
       id: 'homepage.features.leap-freja.title',
-      message: 'Leap Freja',
-      description: 'Title for Leap Freja feature',
+      message: 'Freja Integration',
+      description: 'Title for Freja Integration feature',
     }),
     image: 'img/freja-logo-final.png',
     description: (
@@ -115,11 +115,11 @@ const FeatureList: FeatureItem[] = [
         {translate({
           id: 'homepage.features.leap-freja.description',
           message: 'Seamless integration between Business Central and Freja Third Party Logistics (3PL). Automate pick and receipt assignments, item master synchronization, and SFTP file exchange for complete warehouse outsourcing.',
-          description: 'Description for Leap Freja feature',
+          description: 'Description for Freja Integration feature',
         })}
       </>
     ),
-    link: '/leap-freja/intro',
+    link: '/freja-integration/intro',
   },
 ];
 
