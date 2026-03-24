@@ -4,22 +4,22 @@ sidebar_position: 2
 
 # Lokasjonskartlegging
 
-Freja Integrasjon krever en kartlegging mellom Business Central-lokasjoner og Freja-lagerlokasjoner. Bare ordrer tilknyttet en kartlagt lokasjon kan ha Freja-tildelinger opprettet.
+Freja Integrasjonen krever en tilordning mellom Business Central-lokasjoner og Freja-lagerlokasjoner. Bare ordrer tilknyttet en tilordnet lokasjon kan få Freja-oppdrag opprettet.
 
-## Freja-lokasjoner
+## Freja lokasjoner
 
-Siden **Freja-lokasjoner** viser tilgjengelige Freja-lagerlokasjonskoder. Disse er levert av Freja og representerer de fysiske lagrene administrert av Freja på dine vegne.
+Siden **Freja lokasjoner** viser tilgjengelige Freja-lagerlokasjonskoder. Disse representerer de fysiske lagrene administrert av Freja.
 
-Åpne siden **Freja-oppsett** og klikk **Freja-lokasjoner** i båndet under **Navigasjon**.
+Åpne siden **Freja-oppsett** og klikk **Freja lokasjoner** i båndet under **Navigasjon**.
 
-## Opprette lokasjonskartlegginger
+## Opprette lokasjonstilordninger
 
-**Freja-lokasjonskartlegginger** kobler en Business Central-lokasjonskode til en Freja-lokasjonskode.
+**Lokasjonstilordninger** kobler en Business Central-lokasjonskode til en Freja-lokasjonskode.
 
-Åpne siden **Freja-oppsett** og klikk **Freja-lokasjonskartlegginger** i båndet under **Navigasjon**.
+Åpne siden **Freja-oppsett** og klikk **Lokasjonstilordninger** i båndet under **Navigasjon**.
 
-1. Klikk **Ny** for å opprette en ny kartlegging
+1. Klikk **Ny** for å opprette en ny tilordning
 2. Velg **Lokasjonskode** — Business Central-lokasjonen brukt på ordrene dine
 3. Velg **Freja-lokasjonskode** — den tilsvarende Freja-lagerkoden
 
-Når en kartlegging finnes, er ordrer som bruker den Business Central-lokasjonen kvalifisert for opprettelse av Freja-tildelinger.
+Når en tilordning finnes, er ordrer med linjer som bruker den Business Central-lokasjonen kvalifisert for opprettelse av Freja-oppdrag.

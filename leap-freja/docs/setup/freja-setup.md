@@ -13,8 +13,6 @@ The **Freja Setup** page is the central configuration point for the integration.
 | **Company Name** | Your company identifier used in filenames sent to Freja |
 | **Client ID** | Your Freja client ID |
 | **Client Name** | Your Freja client name |
-| **Pick Orders Enabled** | Enable or disable creation of pick assignments |
-| **Receipt Orders Enabled** | Enable or disable creation of receipt assignments |
 | **Send Immediately** | When enabled, a pick or receipt assignment is automatically scheduled for sending as soon as it is created |
 
 ## SFTP Configuration
@@ -47,7 +45,7 @@ Freja uses separate inbound and outbound folders for file exchange. You can conf
 
 ## Units
 
-Specify the units of measure used when sending item data to Freja. These should match the units expected by your Freja setup.
+Specify the units of measure used when sending item data to Freja. 
 
 | Field | Description |
 |-------|-------------|

@@ -10,8 +10,7 @@ Pick assignments represent outbound warehouse operations — items being shipped
 
 1. Open the **Sales Order** in Business Central
 2. Click the **Create Pick Assignment** action (in the Freja action group)
-3. The system validates:
-   - Pick orders are enabled in Freja Setup
+3. The system validates:   
    - At least one order line has items to be shipped from a Freja location
    - No ongoing pick assignment already exists for this order
 4. The pick assignment is created with status **Created**. If **Send Immediately** is enabled in Freja Setup, it is automatically queued for sending right away
@@ -37,6 +36,6 @@ When Freja has fulfilled the pick order, a response file is placed in the inboun
 1. Open the pick assignment and click **Update from Freja**, or let the automated job queue process it
 2. The system reads the confirmed quantities, lot numbers, serial numbers, and expiration dates
 3. The assignment status updates to **Handled**
-4. On the source Sales Order, click **Update Source Document** to apply the confirmed quantities
+4. On the pick assignment, click **Update Source Document** to apply the confirmed quantities
 5. The assignment status updates to **Completed**
 6. Depending on the **Update Action** configured in Freja Setup, the Sales Order may be ready for posting, or may already have been posted

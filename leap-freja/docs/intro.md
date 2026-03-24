@@ -13,8 +13,6 @@ Freja Integration is an application for Microsoft Dynamics 365 Business Central 
 - **Item Master Synchronization**: Export item specifications to Freja, including dimensions, volume, and item tracking requirements
 - **Automated Response Processing**: Import pick and receipt reports from Freja with confirmed quantities
 - **Full Item Tracking Support**: Handle lot numbers, serial numbers, and expiration dates
-- **Bidirectional Status Updates**: Automatically apply Freja-confirmed quantities back to source documents
-- **Comprehensive Audit Trail**: Integration log tracks all operations with timestamps and status
 - **Role Center Activity Cues**: Freja activity cues integrate into Business Manager and Order Processor role centers
 
 ## How It Works

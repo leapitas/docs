@@ -4,23 +4,23 @@ sidebar_position: 4
 
 # Overføringsordrer
 
-Overføringsordrer kan generere både en plukktildeling og en mottakstildeling, som representerer to etapper av en lageroverføring — utgående fra overføringsfra-lokasjonen og inngående til overføringstil-lokasjonen.
+Overføringsordrer kan generere både et plukkoppdrag og et mottaksoppdrag — utgående fra overfør fra-kode og inngående til overfør til-kode.
 
-## Plukktildeling (utgående etappe)
+## Plukkoppdrag
 
-Plukktildelingen dekker varer som sendes ut fra overføringsfra-lokasjonen.
+Plukkoppdraget dekker varer som sendes ut fra overføring fra-kode.
 
 1. Åpne **Overføringsordren** i Business Central
-2. Klikk **Opprett plukktildeling** (i Freja-handlingsgruppen)
-3. Systemet oppretter en plukktildeling for varer som sendes fra overføringsfra-lokasjonen
+2. Klikk **Opprett plukkoppdrag** (under Freja)
+3. Systemet oppretter et plukkoppdrag for varer som sendes fra overføring fra-koden
 4. Følg samme eksport- og bekreftelsesprosess som for [plukktildelinger fra salgsordrer](../pick-assignments)
 
-## Mottakstildeling (inngående etappe)
+## Mottaksoppdrag
 
-Mottakstildelingen dekker varer som mottas til overføringstil-lokasjonen.
+Mottaksoppdraget dekker varer som mottas til overføring til-kode.
 
-1. Fra den samme overføringsordren, klikk **Opprett mottakstildeling**
-2. Systemet oppretter en mottakstildeling for varer som mottas til overføringstil-lokasjonen
+1. Fra den samme overføringsordren, klikk **Opprett mottaksoppdrag**
+2. Systemet oppretter et mottaksoppdrag for varer som mottas til overføring til-koden
 3. Følg samme eksport- og bekreftelsesprosess som for [mottakstildelinger fra bestillinger](../receipt-assignments)
 
-En enkelt overføringsordre kan ha både en plukktildeling og en mottakstildeling aktive samtidig, som representerer begge etappene av overføringen uavhengig av hverandre. Dette gjelder kun når både overføringsfra-lokasjonen og overføringstil-lokasjonen er kartlagt til Freja-lokasjoner.
+En enkelt overføringsordre kan ha både et plukkoppdrag og et mottaksoppdrag aktive samtidig, som representerer begge overføringen uavhengig av hverandre. Dette gjelder kun når både overføring fra-koden og overføring til-koden er tilordnet til Freja-lokasjoner.

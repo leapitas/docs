@@ -10,8 +10,7 @@ Receipt assignments represent inbound warehouse operations — items being recei
 
 1. Open the **Purchase Order** in Business Central
 2. Click the **Create Receipt Assignment** action (in the Freja action group)
-3. The system validates:
-   - Receipt orders are enabled in Freja Setup
+3. The system validates:   
    - At least one order line has items to be received at a Freja location
    - No ongoing receipt assignment already exists for this order
 4. The receipt assignment is created with status **Created**. If **Send Immediately** is enabled in Freja Setup, it is automatically queued for sending right away
