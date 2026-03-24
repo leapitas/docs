@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
       <>
         {translate({
           id: 'homepage.features.leap-sign.description',
-          message: 'Comprehensive digital signature solution with legally binding electronic signatures, workflow automation, and seamless API integration for your business applications.',
+          message: 'Comprehensive digital signature solution with legally binding electronic signatures, workflow automation, and API integration for your business applications.',
           description: 'Description for Leap Sign feature',
         })}
       </>
@@ -78,7 +78,7 @@ const FeatureList: FeatureItem[] = [
       <>
         {translate({
           id: 'homepage.features.visma-expense.description',
-          message: 'Streamlined expense management that automatically imports approved travel expenses and disbursements from Visma Expense for seamless project and financial posting in Business Central.',
+          message: 'Expense management that automatically imports approved travel expenses and disbursements from Visma Expense for project and financial posting in Business Central.',
           description: 'Description for Visma Expense Import feature',
         })}
       </>
@@ -114,7 +114,7 @@ const FeatureList: FeatureItem[] = [
       <>
         {translate({
           id: 'homepage.features.leap-freja.description',
-          message: 'Seamless integration between Business Central and Freja Third Party Logistics (3PL). Automate pick and receipt assignments, item master synchronization, and SFTP file exchange for complete warehouse outsourcing.',
+          message: 'Integration between Business Central and Freja Third Party Logistics (3PL). Automate pick and receipt assignments, item master synchronization, and SFTP file exchange for complete warehouse outsourcing.',
           description: 'Description for Freja Integration feature',
         })}
       </>
