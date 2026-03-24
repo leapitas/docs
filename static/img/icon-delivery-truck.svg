@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80">
+  <!-- Cargo box body -->
+  <rect x="4" y="10" width="68" height="52" rx="2" fill="#2A9B8E"/>
+  <!-- Cargo box top stripe -->
+  <rect x="4" y="10" width="68" height="10" rx="2" fill="#258A7E"/>
+  <!-- Cab -->
+  <rect x="72" y="22" width="42" height="40" rx="2" fill="#258A7E"/>
+  <!-- Cab window -->
+  <rect x="76" y="26" width="34" height="22" rx="1" fill="#76E1D6"/>
+  <!-- Chassis -->
+  <rect x="4" y="62" width="110" height="6" fill="#1C6B62"/>
+  <!-- Rear wheel -->
+  <circle cx="26" cy="70" r="10" fill="#1C6B62"/>
+  <circle cx="26" cy="70" r="4" fill="#42C5B6"/>
+  <!-- Front wheel -->
+  <circle cx="92" cy="70" r="10" fill="#1C6B62"/>
+  <circle cx="92" cy="70" r="4" fill="#42C5B6"/>
+</svg>

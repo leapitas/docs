@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Gjeldende",
+    "description": "The label for version current"
+  },
+  "sidebar.leapFrejaSidebar.category.Setup": {
+    "message": "Oppsett",
+    "description": "The label for category Setup in sidebar leapFrejaSidebar"
+  },
+  "sidebar.leapFrejaSidebar.category.Usage": {
+    "message": "Bruk",
+    "description": "The label for category Usage in sidebar leapFrejaSidebar"
+  }
+}

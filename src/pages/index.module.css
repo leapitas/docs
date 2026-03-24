@@ -4,10 +4,22 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 2rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 160px;
+}
+
+.heroBanner h1 {
+  font-size: 2rem;
+}
+
+.heroBanner p {
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 996px) {

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Velkommen til Leap IT Dokumentasjon
 
-Omfattende dokumentasjon for alle Leap IT-produkter og tjenester designet for å integreres sømløst med Microsoft Dynamics 365 Business Central.
+Omfattende dokumentasjon for alle Leap IT-produkter og tjenester designet for å integreres direkte med Microsoft Dynamics 365 Business Central.
 
 ## Våre produkter
 
@@ -12,7 +12,7 @@ Omfattende dokumentasjon for alle Leap IT-produkter og tjenester designet for å
 Digital signaturløsning for Business Central som muliggjør sikker, juridisk bindende dokumentsignering direkte fra ditt ERP-system. Perfekt for salgsdokumenter, kontrakter og avtaler.
 
 ### Leap Visma Employees Import
-Automatisert synkronisering av ansattdata mellom Visma HRM-systemer og Business Central. Eliminer manuell dataregistrering og oppretthold konsistente ansattregistre på tvers av plattformer.
+Synkronisering av ansattdata mellom Visma HRM-systemer og Business Central. Eliminer manuell dataregistrering og oppretthold konsistente ansattregistre på tvers av plattformer.
 
 ### Leap Visma Payroll Import
 Komplett lønnsintegrasjonsløsning som automatisk importerer lønnstransaksjoner fra Visma Payroll til Business Central med bokføring mot finans og mulighet for kontotilordning.

@@ -1,8 +1,4 @@
 {
-  "copyright": {
-    "message": "Copyright © 2024 Leap IT AS",
-    "description": "The footer copyright"
-  },
   "link.title.Products": {
     "message": "Produkter",
     "description": "The title of the footer links column with title=Products in the footer"
@@ -30,5 +26,9 @@
   "link.item.label.EULA": {
     "message": "Sluttbrukeravtale",
     "description": "The label of footer link with label=EULA linking to /legal/eula"
+  },
+  "link.item.label.Freja Integration": {
+    "message": "Freja Integrasjon",
+    "description": "The label of footer link with label=Freja Integration linking to /freja-integration/intro"
   }
 }

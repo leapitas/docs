@@ -4,11 +4,11 @@
     "description": "The title of the homepage"
   },
   "homepage.tagline": {
-    "message": "Omfattende dokumentasjon for alle Leap IT produkter",
+    "message": "Dokumentasjon for alle Leap IT produkter",
     "description": "The tagline of the homepage"
   },
   "homepage.description": {
-    "message": "Omfattende dokumentasjon for alle Leap IT produkter inkludert Leap Sign, Visma integrasjoner og juridiske ressurser.",
+    "message": "Dokumentasjon for alle Leap IT produkter inkludert Leap Sign, Visma integrasjoner og juridiske ressurser.",
     "description": "The description of the homepage"
   },
   "homepage.features.leap-sign.title": {
@@ -16,7 +16,7 @@
     "description": "Title for Leap Sign feature"
   },
   "homepage.features.leap-sign.description": {
-    "message": "Omfattende løsning for digital signering med juridisk bindende elektroniske signaturer, arbeidsflytautomatisering og API-integrasjon mot signeringsløsninger.",
+    "message": "Løsning for digital signering med juridisk bindende elektroniske signaturer, arbeidsflytautomatisering og API-integrasjon mot signeringsløsninger.",
     "description": "Description for Leap Sign feature"
   },
   "homepage.features.visma-employees.title": {
@@ -24,7 +24,7 @@
     "description": "Title for Visma Employees Import feature"
   },
   "homepage.features.visma-employees.description": {
-    "message": "Automatisert synkronisering av ansattdata mellom Visma Employees og Business Central. Eliminer manuell dataregistrering og oppretthold korrekte ansattdata på tvers av programmene.",
+    "message": "Synkronisering av ansattdata mellom Visma Employees og Business Central. Eliminer manuell dataregistrering og oppretthold korrekte ansattdata på tvers av programmene.",
     "description": "Description for Visma Employees Import feature"
   },
   "homepage.features.visma-payroll.title": {
@@ -40,7 +40,7 @@
     "description": "Title for Visma Expense Import feature"
   },
   "homepage.features.visma-expense.description": {
-    "message": "Strømlinjeformet utleggshåndtering som automatisk importerer godkjente reiseregninger og utlegg fra Visma Expense for sømløs prosjekt- og finansbokføring i Business Central.",
+    "message": "Automatisk import av godkjente reiseregninger og utlegg fra Visma Expense for enkel prosjekt- og finansbokføring i Business Central.",
     "description": "Description for Visma Expense Import feature"
   },
   "homepage.features.leap-ehf.title": {
@@ -50,6 +50,14 @@
   "homepage.features.leap-ehf.description": {
     "message": "Komplett løsning for elektronisk fakturering via PEPPOL-nettverket. Full PEPPOL 3.0-støtte med multikanaldistribusjon, PDF-vedlegg og automatisk oppslag i PEPPOL-registeret.",
     "description": "Description for Enkel EHF feature"
+  },
+  "homepage.features.leap-freja.title": {
+    "message": "Freja Integrasjon",
+    "description": "Title for Freja Integrasjon feature"
+  },
+  "homepage.features.leap-freja.description": {
+    "message": "Kobler Business Central direkte med Freja tredjepartslogistikk (3PL). Send informasjon om plukk- og mottak, varesynkronisering.",
+    "description": "Description for Freja Integrasjon feature"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",

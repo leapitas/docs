@@ -25,7 +25,18 @@
       "Bash(node:*)",
       "Bash(git log:*)",
       "Bash(git mv:*)",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "Bash(xargs sed:*)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill:*)",
+      "Bash(cmd.exe /c \"taskkill /PID 45700 /F\")",
+      "Bash(cmd.exe /c \"taskkill /PID 45700 /F 2>&1\")",
+      "Bash(powershell -Command \"Stop-Process -Id 45700 -Force\")",
+      "Bash(powershell -Command \"Get-NetTCPConnection -LocalPort 3000 -State Listen | Select-Object -ExpandProperty OwningProcess | ForEach-Object { Stop-Process -Id $_ -Force }\")",
+      "Bash(powershell -Command \"Stop-Process -Id 24148 -Force\")",
+      "Bash(powershell -Command \"Stop-Process -Id 35908 -Force\")",
+      "Bash(powershell -Command \"Stop-Process -Id 8348 -Force\")",
+      "Bash(pkill -f \"docusaurus\")"
     ],
     "deny": [],
     "ask": []

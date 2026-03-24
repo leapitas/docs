@@ -115,6 +115,15 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'leap-freja',
+        path: 'leap-freja/docs',
+        routeBasePath: 'freja-integration',
+        sidebarPath: './sidebars-leap-freja.ts',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'legal',
         path: 'legal/docs',
         routeBasePath: 'legal',
@@ -182,6 +191,13 @@ const config: Config = {
           label: 'Enkel EHF',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'leapFrejaSidebar',
+          docsPluginId: 'leap-freja',
+          position: 'left',
+          label: 'Freja Integration',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
         },
@@ -212,6 +228,10 @@ const config: Config = {
             {
               label: 'Enkel EHF',
               to: '/enkel-ehf/intro',
+            },
+            {
+              label: 'Freja Integration',
+              to: '/freja-integration/intro',
             },
           ],
         },

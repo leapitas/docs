@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Roof -->
+  <polygon points="50,8 96,36 4,36" fill="#1C6B62"/>
+  <!-- Building body -->
+  <rect x="8" y="36" width="84" height="54" fill="#2A9B8E"/>
+  <!-- Left window -->
+  <rect x="12" y="44" width="14" height="10" rx="1" fill="#76E1D6"/>
+  <!-- Right window -->
+  <rect x="74" y="44" width="14" height="10" rx="1" fill="#76E1D6"/>
+  <!-- Bay door -->
+  <rect x="32" y="54" width="36" height="36" fill="#1C6B62"/>
+  <!-- Door panel lines -->
+  <line x1="32" y1="62" x2="68" y2="62" stroke="#2A9B8E" stroke-width="1.5"/>
+  <line x1="32" y1="70" x2="68" y2="70" stroke="#2A9B8E" stroke-width="1.5"/>
+  <line x1="32" y1="78" x2="68" y2="78" stroke="#2A9B8E" stroke-width="1.5"/>
+  <!-- Door center split -->
+  <line x1="50" y1="54" x2="50" y2="90" stroke="#2A9B8E" stroke-width="1.5"/>
+</svg>

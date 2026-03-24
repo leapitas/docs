@@ -5,4 +5,4 @@ Leap Sign supports multiple e-signature providers, allowing you to choose the so
 Currently, Leap Sign offers integration with the following e-signature providers:
 
 ### Visma Sign
-Complete integration with Visma Sign's electronic signature platform, providing seamless document signing capabilities within Business Central.
+Complete integration with Visma Sign's electronic signature platform, providing document signing capabilities within Business Central.
