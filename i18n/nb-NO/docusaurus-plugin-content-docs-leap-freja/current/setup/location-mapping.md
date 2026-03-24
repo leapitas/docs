@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Lokasjonskartlegging
+# Lokasjonstilordning
 
 Freja Integrasjonen krever en tilordning mellom Business Central-lokasjoner og Freja-lagerlokasjoner. Bare ordrer tilknyttet en tilordnet lokasjon kan få Freja-oppdrag opprettet.
 
