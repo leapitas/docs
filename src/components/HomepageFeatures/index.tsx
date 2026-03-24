@@ -103,6 +103,24 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/enkel-ehf/intro',
   },
+  {
+    title: translate({
+      id: 'homepage.features.leap-freja.title',
+      message: 'Leap Freja',
+      description: 'Title for Leap Freja feature',
+    }),
+    image: 'img/freja-logo-final.png',
+    description: (
+      <>
+        {translate({
+          id: 'homepage.features.leap-freja.description',
+          message: 'Seamless integration between Business Central and Freja Third Party Logistics (3PL). Automate pick and receipt assignments, item master synchronization, and SFTP file exchange for complete warehouse outsourcing.',
+          description: 'Description for Leap Freja feature',
+        })}
+      </>
+    ),
+    link: '/leap-freja/intro',
+  },
 ];
 
 function Feature({title, image, description, link}: FeatureItem) {

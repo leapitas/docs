@@ -51,6 +51,14 @@
     "message": "Komplett løsning for elektronisk fakturering via PEPPOL-nettverket. Full PEPPOL 3.0-støtte med multikanaldistribusjon, PDF-vedlegg og automatisk oppslag i PEPPOL-registeret.",
     "description": "Description for Enkel EHF feature"
   },
+  "homepage.features.leap-freja.title": {
+    "message": "Leap Freja",
+    "description": "Title for Leap Freja feature"
+  },
+  "homepage.features.leap-freja.description": {
+    "message": "Sømløs integrasjon mellom Business Central og Freja tredjepartslogistikk (3PL). Automatiser plukk- og mottakstildelinger, varesynkronisering og SFTP-filutveksling for komplett lagerutsetting.",
+    "description": "Description for Leap Freja feature"
+  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"
