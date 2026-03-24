@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Om Freja Integrasjon
+# Om Freja Integrasjonen
 
-Freja Integrasjon er en applikasjon for Microsoft Dynamics 365 Business Central som kobler Business Central sammen med Freja tredjepartslogistikk (3PL). Den automatiserer utvekslingen av lagerdata mellom de to systemene, slik at informasjon flyter automatisk uten manuelle steg.
+Vår Freja Integrasjon er en applikasjon for Microsoft Dynamics 365 Business Central som kobler Business Central sammen med Freja tredjepartslogistikk (3PL). Den automatiserer utvekslingen av lagerdata mellom de to systemene, slik at informasjon flyter automatisk uten manuelle steg.
 
 ## Nøkkelfunksjoner
 

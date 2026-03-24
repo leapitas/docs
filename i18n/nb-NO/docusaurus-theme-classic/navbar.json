@@ -19,8 +19,8 @@
     "message": "Leap IT Logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Freja Integrasjon": {
+  "item.label.Freja Integration": {
     "message": "Freja Integrasjon",
-    "description": "Navbar item with label Freja Integrasjon"
+    "description": "Navbar item with label Freja Integration"
   }
 }

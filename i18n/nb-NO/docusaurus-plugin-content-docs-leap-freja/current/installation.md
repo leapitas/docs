@@ -14,7 +14,7 @@ Før du installerer Freja Integrasjonen, sørg for at du har følgende:
 
 ## Installere utvidelsen
 
-Freja Integrasjon installeres direkte i Business Central via siden for utvidelsesbehandling.
+Freja Integrasjonen installeres direkte i Business Central via siden for utvidelsesbehandling.
 
 1. Søk etter **Administrasjon av utvidelse** i Business Central
 2. Klikk **Administrer** og deretter **Last opp utvidelse**

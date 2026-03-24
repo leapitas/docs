@@ -4,11 +4,11 @@
     "description": "The title of the homepage"
   },
   "homepage.tagline": {
-    "message": "Omfattende dokumentasjon for alle Leap IT produkter",
+    "message": "Dokumentasjon for alle Leap IT produkter",
     "description": "The tagline of the homepage"
   },
   "homepage.description": {
-    "message": "Omfattende dokumentasjon for alle Leap IT produkter inkludert Leap Sign, Visma integrasjoner og juridiske ressurser.",
+    "message": "Dokumentasjon for alle Leap IT produkter inkludert Leap Sign, Visma integrasjoner og juridiske ressurser.",
     "description": "The description of the homepage"
   },
   "homepage.features.leap-sign.title": {
@@ -16,7 +16,7 @@
     "description": "Title for Leap Sign feature"
   },
   "homepage.features.leap-sign.description": {
-    "message": "Omfattende løsning for digital signering med juridisk bindende elektroniske signaturer, arbeidsflytautomatisering og API-integrasjon mot signeringsløsninger.",
+    "message": "Løsning for digital signering med juridisk bindende elektroniske signaturer, arbeidsflytautomatisering og API-integrasjon mot signeringsløsninger.",
     "description": "Description for Leap Sign feature"
   },
   "homepage.features.visma-employees.title": {
@@ -24,7 +24,7 @@
     "description": "Title for Visma Employees Import feature"
   },
   "homepage.features.visma-employees.description": {
-    "message": "Automatisert synkronisering av ansattdata mellom Visma Employees og Business Central. Eliminer manuell dataregistrering og oppretthold korrekte ansattdata på tvers av programmene.",
+    "message": "Synkronisering av ansattdata mellom Visma Employees og Business Central. Eliminer manuell dataregistrering og oppretthold korrekte ansattdata på tvers av programmene.",
     "description": "Description for Visma Employees Import feature"
   },
   "homepage.features.visma-payroll.title": {

@@ -40,7 +40,7 @@ This is a Docusaurus v3 documentation website for Leap IT AS, replacing their pr
 - `npm run serve`: Serve built site locally (all locales, port 3000)
 - `npm start`: Development server (port 3000, English only — no translations)
 
-**Always use `npm run build && npm run serve` when the user wants to test with translations. `npm start` only serves the default locale.**
+**Always run the site using `npm run build && npm run serve`. This serves all locales including Norwegian translations. Never use `npm start` — it only serves the default English locale.**
 
 ## Content Structure
 
