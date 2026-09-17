@@ -36,6 +36,7 @@ In the search menu in Business Central, search for "Visma Expense Setup" and cli
 | Project task no. | Specifies the fixed project task to be used for all projects. Only relevant if Use fixed is selected as project task handling. |
 | Project task per project | The field shows the number of projects that are set up with project task for travel and expenses. By clicking on the field, the project list opens. For each project, you enter the project task under General on the project card. The field is only relevant if Use fixed per project is selected as project task handling. |
 | Project task dimension id | Specifies the cost bearer in Visma that corresponds to project task number in Business Central. The field is only relevant if Assign from dimension is selected as project task handling. |
+| Only transfer transactions with project no. | Specifies whether only transactions marked with cost bearer for project in Visma should be transferred to the journal. Transactions without a project are skipped, and the balancing line is only created for the transferred transactions. The field is only visible if Finance and project is selected in the Post to field, and cannot be combined with Post transactions without project no. |
 | Post transactions without project no. | Specifies whether you also want to post to project if the transactions are not marked with cost bearer for project. |
 | Project no. For transactions without project | Specifies a fixed project where transactions that are not marked with cost bearer for project are posted against. |
 | Project task no. For transactions without project | Specifies a fixed project task where transactions that are not marked with cost bearer for project are posted against. |
@@ -45,7 +46,10 @@ In the search menu in Business Central, search for "Visma Expense Setup" and cli
 
 | Field | Description |
 |-------|-------------|
+| Use fixed finance account | Specifies whether all travel transactions should be posted to the same finance account instead of the account provided by Visma. |
+| Fixed finance account no. | Specifies the finance account to be used for all travel transactions. Only relevant if Use fixed finance account is enabled. |
 | Balance account type | Specifies how travel transactions should be posted to finance. The following options are available:<br/>• Employee – Entries are posted to employee accounts receivable. NOTE! Note that this requires linking between employees in Visma Employees and employees in Business Central. You must therefore use our add-on app "Visma Employees Import" to synchronize employees between the systems.<br/>• Finance account – A fixed balance account is used when posting to finance. |
+| Fixed balance account no. | Specifies the balance account to be used when posting to finance. Only relevant if Finance account is selected as balance account type. |
 
 ### Dimensions
 
