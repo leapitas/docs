@@ -36,6 +36,7 @@ I søkemenyen i Business Central søk på «Visma Expense Oppsett» og trykk på
 | Prosjektoppgavenr. | Angir den faste prosjektoppgaven som skal benyttes for alle prosjekter. Kun relevant dersom Bruk fast er valgt som håndtering av prosjektoppgave. |
 | Prosjektoppgave per prosjekt | Feltet viser antall prosjekter som er satt opp med prosjektoppgave for reise og utlegg. Ved trykk på feltet åpnes prosjektlisten. For hvert prosjekt legger man inn prosjektoppgave under Generelt på prosjektkortet. Feltet er kun relevant dersom Bruk fast per prosjekt er valgt som håndtering av prosjektoppgave. |
 | Prosjektoppgave dimensjons id | Angir kostnadsbæreren i Visma som tilsvarer prosjektoppgavenummer i Business Central. Feltet er kun relevant dersom Tilordne fra dimensjon er valgt som håndtering av prosjektoppgave. |
+| Overfør kun transaksjoner med prosjektnr. | Angir om kun transaksjoner som er merket med kostnadsbærer for prosjekt i Visma skal overføres til kladden. Transaksjoner uten prosjekt hoppes over, og motposteringen opprettes kun for transaksjonene som overføres. Feltet er kun synlig dersom Finans og prosjekt er valgt i felt Bokfør til, og kan ikke kombineres med Bokfør transaksjoner uten prosjektnr. |
 | Bokfør transaksjoner uten prosjektnr | Angir om du også ønsker å bokføre til prosjekt dersom transaksjonene ikke er merket med kostnadsbærer for prosjekt. |
 | Prosjektnr. For transaksjoner uten prosjekt | Angir et fast prosjekt der transaksjoner som ikke er merket med kostnadsbærer for prosjekt føres mot. |
 | Prosjektoppgavenr. For transaksjoner uten prosjekt | Angir en fast prosjektoppgave der transaksjoner som ikke er merket med kostnadsbærer for prosjekt føres mot. |
@@ -45,7 +46,10 @@ I søkemenyen i Business Central søk på «Visma Expense Oppsett» og trykk på
 
 | Felt | Beskrivelse |
 |------|-------------|
+| Bruk fast finanskonto | Angir om alle reisetransaksjoner skal bokføres mot samme finanskonto i stedet for kontoen som kommer fra Visma. |
+| Fast finanskontonr. | Angir finanskontoen som skal benyttes for alle reisetransaksjoner. Kun relevant dersom Bruk fast finanskonto er aktivert. |
 | Balansekontotype | Angir hvordan reisetransaksjonene skal bokføres mot finans. Følgende valg er tilgjengelige:<br/>• Ansatt – Føringer føres mot ansattreskontro. OBS! Merk at dette krever knytning mellom ansatte i Visma Employees og ansatte i Business Central. Du må derfor ta i bruk vår tilleggsapp «Visma Employees Import» for å synkronisere ansatte mellom systemene.<br/>• Finanskonto – En fast balansekonto benyttes ved bokføring mot finans. |
+| Fast balansekontonr. | Angir balansekontoen som skal benyttes ved bokføring mot finans. Kun relevant dersom Finanskonto er valgt som balansekontotype. |
 
 ### Dimensjoner
 
