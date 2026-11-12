@@ -11,6 +11,18 @@
     "message": "Dokumentasjon for alle Leap IT produkter inkludert Leap Sign, Visma integrasjoner og juridiske ressurser.",
     "description": "The description of the homepage"
   },
+  "homepage.groups.visma": {
+    "message": "Visma",
+    "description": "Heading for the Visma product group"
+  },
+  "homepage.groups.finance-documents": {
+    "message": "Økonomi og dokumenter",
+    "description": "Heading for the Finance & Documents product group"
+  },
+  "homepage.groups.logistics": {
+    "message": "Logistikk",
+    "description": "Heading for the Logistics product group"
+  },
   "homepage.features.leap-sign.title": {
     "message": "Leap Sign",
     "description": "Title for Leap Sign feature"

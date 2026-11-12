@@ -192,74 +192,85 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'leapSignSidebar',
-          docsPluginId: 'leap-sign',
+          type: 'dropdown',
+          label: 'Visma',
           position: 'left',
-          label: 'Leap Sign',
+          items: [
+            {
+              type: 'docSidebar',
+              sidebarId: 'leapVismaEmployeesSidebar',
+              docsPluginId: 'leap-visma-employees',
+              label: 'Employees Import',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'leapVismaPayrollSidebar',
+              docsPluginId: 'leap-visma-payroll',
+              label: 'Payroll Import',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'leapVismaExpenseSidebar',
+              docsPluginId: 'leap-visma-expense',
+              label: 'Expense Import',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'leapVismaCalendarSidebar',
+              docsPluginId: 'leap-visma-calendar',
+              label: 'Calendar Import',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'leapVismaDimensionSidebar',
+              docsPluginId: 'leap-visma-dimension',
+              label: 'Dimension Integration',
+            },
+          ],
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'leapVismaEmployeesSidebar',
-          docsPluginId: 'leap-visma-employees',
+          type: 'dropdown',
+          label: 'Finance & Documents',
           position: 'left',
-          label: 'Visma Employees Import',
+          items: [
+            {
+              type: 'docSidebar',
+              sidebarId: 'enkelEhfSidebar',
+              docsPluginId: 'enkel-ehf',
+              label: 'Enkel EHF',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'sparebank1FactoringSidebar',
+              docsPluginId: 'sparebank1-factoring',
+              label: 'Sparebank1 Factoring',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'leapSignSidebar',
+              docsPluginId: 'leap-sign',
+              label: 'Leap Sign',
+            },
+          ],
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'leapVismaPayrollSidebar',
-          docsPluginId: 'leap-visma-payroll',
+          type: 'dropdown',
+          label: 'Logistics',
           position: 'left',
-          label: 'Visma Payroll Import',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'leapVismaExpenseSidebar',
-          docsPluginId: 'leap-visma-expense',
-          position: 'left',
-          label: 'Visma Expense Import',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'leapVismaCalendarSidebar',
-          docsPluginId: 'leap-visma-calendar',
-          position: 'left',
-          label: 'Visma Calendar Import',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'leapVismaDimensionSidebar',
-          docsPluginId: 'leap-visma-dimension',
-          position: 'left',
-          label: 'Visma Dimension Integration',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'enkelEhfSidebar',
-          docsPluginId: 'enkel-ehf',
-          position: 'left',
-          label: 'Enkel EHF',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'leapFrejaSidebar',
-          docsPluginId: 'leap-freja',
-          position: 'left',
-          label: 'Freja Integration',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'sparebank1FactoringSidebar',
-          docsPluginId: 'sparebank1-factoring',
-          position: 'left',
-          label: 'Sparebank1 Factoring',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'leapVehicleRegistrationSidebar',
-          docsPluginId: 'leap-vehicle-registration',
-          position: 'left',
-          label: 'Vehicle Registration',
+          items: [
+            {
+              type: 'docSidebar',
+              sidebarId: 'leapFrejaSidebar',
+              docsPluginId: 'leap-freja',
+              label: 'Freja Integration',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'leapVehicleRegistrationSidebar',
+              docsPluginId: 'leap-vehicle-registration',
+              label: 'Vehicle Registration',
+            },
+          ],
         },
         {
           type: 'localeDropdown',
@@ -271,43 +282,53 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Products',
+          title: 'Visma',
           items: [
             {
-              label: 'Leap Sign',
-              to: '/leap-sign/intro',
-            },
-            {
-              label: 'Visma Employees Import',
+              label: 'Employees Import',
               to: '/leap-visma-employees/intro',
             },
             {
-              label: 'Visma Payroll Import',
+              label: 'Payroll Import',
               to: '/leap-visma-payroll/intro',
             },
             {
-              label: 'Visma Expense Import',
+              label: 'Expense Import',
               to: '/leap-visma-expense/intro',
             },
             {
-              label: 'Visma Calendar Import',
+              label: 'Calendar Import',
               to: '/leap-visma-calendar/intro',
             },
             {
-              label: 'Visma Dimension Integration',
+              label: 'Dimension Integration',
               to: '/leap-visma-dimension/intro',
             },
+          ],
+        },
+        {
+          title: 'Finance & Documents',
+          items: [
             {
               label: 'Enkel EHF',
               to: '/enkel-ehf/intro',
             },
             {
-              label: 'Freja Integration',
-              to: '/freja-integration/intro',
-            },
-            {
               label: 'Sparebank1 Factoring',
               to: '/sparebank1-factoring/intro',
+            },
+            {
+              label: 'Leap Sign',
+              to: '/leap-sign/intro',
+            },
+          ],
+        },
+        {
+          title: 'Logistics',
+          items: [
+            {
+              label: 'Freja Integration',
+              to: '/freja-integration/intro',
             },
             {
               label: 'Vehicle Registration',
