@@ -87,6 +87,24 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: translate({
+      id: 'homepage.features.visma-dimension.title',
+      message: 'Visma Dimension Integration',
+      description: 'Title for Visma Dimension Integration feature',
+    }),
+    image: 'img/dimension-logo-final.png',
+    description: (
+      <>
+        {translate({
+          id: 'homepage.features.visma-dimension.description',
+          message: 'Keeps the cost units in Visma Payroll up to date from Business Central. Dimension values, projects and project tasks are sent to Visma Payroll automatically when they are created, changed or deleted.',
+          description: 'Description for Visma Dimension Integration feature',
+        })}
+      </>
+    ),
+    link: '/leap-visma-dimension/intro',
+  },
+  {
+    title: translate({
       id: 'homepage.features.leap-ehf.title',
       message: 'Enkel EHF',
       description: 'Title for Enkel EHF feature',

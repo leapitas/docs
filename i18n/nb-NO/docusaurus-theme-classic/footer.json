@@ -34,5 +34,9 @@
   "link.item.label.Sparebank1 Factoring": {
     "message": "Sparebank1 Factoring",
     "description": "The label of footer link with label=Sparebank1 Factoring linking to /sparebank1-factoring/intro"
+  },
+  "link.item.label.Visma Dimension Integration": {
+    "message": "Visma Dimension Integration",
+    "description": "The label of footer link with label=Visma Dimension Integration linking to /leap-visma-dimension/intro"
   }
 }

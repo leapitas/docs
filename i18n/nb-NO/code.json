@@ -43,6 +43,14 @@
     "message": "Automatisk import av godkjente reiseregninger og utlegg fra Visma Expense for enkel prosjekt- og finansbokføring i Business Central.",
     "description": "Description for Visma Expense Import feature"
   },
+  "homepage.features.visma-dimension.title": {
+    "message": "Visma Dimension Integration",
+    "description": "Title for Visma Dimension Integration feature"
+  },
+  "homepage.features.visma-dimension.description": {
+    "message": "Holder kostnadsbærerne i Visma Payroll oppdatert fra Business Central. Dimensjonsverdier, prosjekter og prosjektoppgaver sendes automatisk til Visma Payroll når de opprettes, endres eller slettes.",
+    "description": "Description for Visma Dimension Integration feature"
+  },
   "homepage.features.leap-ehf.title": {
     "message": "Enkel EHF",
     "description": "Title for Enkel EHF feature"
