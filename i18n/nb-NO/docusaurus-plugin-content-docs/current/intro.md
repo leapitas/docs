@@ -26,6 +26,9 @@ Holder kostnadsbærerne i Visma Payroll oppdatert fra Business Central. Dimensjo
 ### Sparebank1 Factoring
 Factoring av fakturaer og kreditnotaer via SpareBank 1 Factoring. Eksporter bokførte dokumenter med PDF-kopier, og importer transaksjonene som kommer tilbake til finanskladden.
 
+### Leap Vehicle Registration
+Preregistrering av importerte kjøretøy hos Statens vegvesen direkte fra Business Central. Kjøretøy opprettes fra kjøretøymaler, manuelt eller når de mottas, og sendes som IVI-dokumenter.
+
 ## Kom i gang
 
 Hver produktseksjon inkluderer:

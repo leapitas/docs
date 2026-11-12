@@ -11,6 +11,18 @@
     "message": "Dokumentasjon for alle Leap IT produkter inkludert Leap Sign, Visma integrasjoner og juridiske ressurser.",
     "description": "The description of the homepage"
   },
+  "homepage.groups.visma": {
+    "message": "Visma",
+    "description": "Heading for the Visma product group"
+  },
+  "homepage.groups.finance-documents": {
+    "message": "Økonomi og dokumenter",
+    "description": "Heading for the Finance & Documents product group"
+  },
+  "homepage.groups.logistics": {
+    "message": "Logistikk",
+    "description": "Heading for the Logistics product group"
+  },
   "homepage.features.leap-sign.title": {
     "message": "Leap Sign",
     "description": "Title for Leap Sign feature"
@@ -82,6 +94,14 @@
   "homepage.features.sparebank1-factoring.description": {
     "message": "Factoring av fakturaer og kreditnotaer via SpareBank 1 Factoring. Eksporter bokførte dokumenter med PDF-kopier, og importer transaksjonene som kommer tilbake til finanskladden.",
     "description": "Description for Sparebank1 Factoring feature"
+  },
+  "homepage.features.vehicle-registration.title": {
+    "message": "Vehicle Registration",
+    "description": "Title for Vehicle Registration feature"
+  },
+  "homepage.features.vehicle-registration.description": {
+    "message": "Preregistrer importerte kjøretøy hos Statens vegvesen direkte fra Business Central, med kjøretøymaler og IVI-dokumenter.",
+    "description": "Description for Vehicle Registration feature"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",

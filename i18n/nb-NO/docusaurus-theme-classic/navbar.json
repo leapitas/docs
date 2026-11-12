@@ -3,36 +3,60 @@
     "message": "Docs",
     "description": "The title in the navbar"
   },
-  "item.label.Leap Sign": {
-    "message": "Leap Sign",
-    "description": "Navbar item with label Leap Sign"
-  },
-  "item.label.Visma Employees": {
-    "message": "Visma Employees Import",
-    "description": "Navbar item with label Visma Employees"
-  },
-  "item.label.Visma Payroll": {
-    "message": "Visma Payroll Import",
-    "description": "Navbar item with label Visma Payroll"
-  },
   "logo.alt": {
     "message": "Leap IT Logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Freja Integration": {
-    "message": "Freja Integrasjon",
-    "description": "Navbar item with label Freja Integration"
+  "item.label.Visma": {
+    "message": "Visma",
+    "description": "Navbar item with label Visma"
+  },
+  "item.label.Finance & Documents": {
+    "message": "Økonomi og dokumenter",
+    "description": "Navbar item with label Finance & Documents"
+  },
+  "item.label.Logistics": {
+    "message": "Logistikk",
+    "description": "Navbar item with label Logistics"
+  },
+  "item.label.Employees Import": {
+    "message": "Employees Import",
+    "description": "Navbar item with label Employees Import"
+  },
+  "item.label.Payroll Import": {
+    "message": "Payroll Import",
+    "description": "Navbar item with label Payroll Import"
+  },
+  "item.label.Expense Import": {
+    "message": "Expense Import",
+    "description": "Navbar item with label Expense Import"
+  },
+  "item.label.Calendar Import": {
+    "message": "Calendar Import",
+    "description": "Navbar item with label Calendar Import"
+  },
+  "item.label.Dimension Integration": {
+    "message": "Dimension Integration",
+    "description": "Navbar item with label Dimension Integration"
+  },
+  "item.label.Enkel EHF": {
+    "message": "Enkel EHF",
+    "description": "Navbar item with label Enkel EHF"
   },
   "item.label.Sparebank1 Factoring": {
     "message": "Sparebank1 Factoring",
     "description": "Navbar item with label Sparebank1 Factoring"
   },
-  "item.label.Visma Dimension Integration": {
-    "message": "Visma Dimension Integration",
-    "description": "Navbar item with label Visma Dimension Integration"
+  "item.label.Leap Sign": {
+    "message": "Leap Sign",
+    "description": "Navbar item with label Leap Sign"
   },
-  "item.label.Visma Calendar Import": {
-    "message": "Visma Calendar Import",
-    "description": "Navbar item with label Visma Calendar Import"
+  "item.label.Freja Integration": {
+    "message": "Freja Integrasjon",
+    "description": "Navbar item with label Freja Integration"
+  },
+  "item.label.Vehicle Registration": {
+    "message": "Vehicle Registration",
+    "description": "Navbar item with label Vehicle Registration"
   }
 }

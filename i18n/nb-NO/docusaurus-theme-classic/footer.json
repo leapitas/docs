@@ -1,23 +1,59 @@
 {
-  "link.title.Products": {
-    "message": "Produkter",
-    "description": "The title of the footer links column with title=Products in the footer"
+  "link.title.Visma": {
+    "message": "Visma",
+    "description": "The title of the footer links column with title=Visma in the footer"
   },
-  "link.title.Legal": {
-    "message": "Juridisk",
-    "description": "The title of the footer links column with title=Legal in the footer"
+  "link.title.Finance & Documents": {
+    "message": "Økonomi og dokumenter",
+    "description": "The title of the footer links column with title=Finance & Documents in the footer"
+  },
+  "link.title.Logistics": {
+    "message": "Logistikk",
+    "description": "The title of the footer links column with title=Logistics in the footer"
+  },
+  "link.item.label.Employees Import": {
+    "message": "Employees Import",
+    "description": "The label of footer link with label=Employees Import linking to /leap-visma-employees/intro"
+  },
+  "link.item.label.Payroll Import": {
+    "message": "Payroll Import",
+    "description": "The label of footer link with label=Payroll Import linking to /leap-visma-payroll/intro"
+  },
+  "link.item.label.Expense Import": {
+    "message": "Expense Import",
+    "description": "The label of footer link with label=Expense Import linking to /leap-visma-expense/intro"
+  },
+  "link.item.label.Calendar Import": {
+    "message": "Calendar Import",
+    "description": "The label of footer link with label=Calendar Import linking to /leap-visma-calendar/intro"
+  },
+  "link.item.label.Dimension Integration": {
+    "message": "Dimension Integration",
+    "description": "The label of footer link with label=Dimension Integration linking to /leap-visma-dimension/intro"
+  },
+  "link.item.label.Enkel EHF": {
+    "message": "Enkel EHF",
+    "description": "The label of footer link with label=Enkel EHF linking to /enkel-ehf/intro"
+  },
+  "link.item.label.Sparebank1 Factoring": {
+    "message": "Sparebank1 Factoring",
+    "description": "The label of footer link with label=Sparebank1 Factoring linking to /sparebank1-factoring/intro"
   },
   "link.item.label.Leap Sign": {
     "message": "Leap Sign",
     "description": "The label of footer link with label=Leap Sign linking to /leap-sign/intro"
   },
-  "link.item.label.Visma Employees Import": {
-    "message": "Visma Employees Import",
-    "description": "The label of footer link with label=Visma Employees Import linking to /leap-visma-employees/intro"
+  "link.item.label.Freja Integration": {
+    "message": "Freja Integrasjon",
+    "description": "The label of footer link with label=Freja Integration linking to /freja-integration/intro"
   },
-  "link.item.label.Visma Payroll Import": {
-    "message": "Visma Payroll Import",
-    "description": "The label of footer link with label=Visma Payroll Import linking to /leap-visma-payroll/intro"
+  "link.item.label.Vehicle Registration": {
+    "message": "Vehicle Registration",
+    "description": "The label of footer link with label=Vehicle Registration linking to /leap-vehicle-registration/intro"
+  },
+  "link.title.Legal": {
+    "message": "Juridisk",
+    "description": "The title of the footer links column with title=Legal in the footer"
   },
   "link.item.label.Privacy Policy": {
     "message": "Personvernerklæring",
@@ -26,21 +62,5 @@
   "link.item.label.EULA": {
     "message": "Sluttbrukeravtale",
     "description": "The label of footer link with label=EULA linking to /legal/eula"
-  },
-  "link.item.label.Freja Integration": {
-    "message": "Freja Integrasjon",
-    "description": "The label of footer link with label=Freja Integration linking to /freja-integration/intro"
-  },
-  "link.item.label.Sparebank1 Factoring": {
-    "message": "Sparebank1 Factoring",
-    "description": "The label of footer link with label=Sparebank1 Factoring linking to /sparebank1-factoring/intro"
-  },
-  "link.item.label.Visma Dimension Integration": {
-    "message": "Visma Dimension Integration",
-    "description": "The label of footer link with label=Visma Dimension Integration linking to /leap-visma-dimension/intro"
-  },
-  "link.item.label.Visma Calendar Import": {
-    "message": "Visma Calendar Import",
-    "description": "The label of footer link with label=Visma Calendar Import linking to /leap-visma-calendar/intro"
   }
 }

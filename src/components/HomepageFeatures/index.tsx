@@ -175,6 +175,24 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/sparebank1-factoring/intro',
   },
+  {
+    title: translate({
+      id: 'homepage.features.vehicle-registration.title',
+      message: 'Vehicle Registration',
+      description: 'Title for Vehicle Registration feature',
+    }),
+    image: 'img/vehicle-registration-logo-final.png',
+    description: (
+      <>
+        {translate({
+          id: 'homepage.features.vehicle-registration.description',
+          message: 'Preregister imported vehicles with Statens vegvesen directly from Business Central, using vehicle templates and IVI documents.',
+          description: 'Description for Vehicle Registration feature',
+        })}
+      </>
+    ),
+    link: '/leap-vehicle-registration/intro',
+  },
 ];
 
 function Feature({title, image, description, link}: FeatureItem) {
@@ -193,22 +211,82 @@ function Feature({title, image, description, link}: FeatureItem) {
   );
 }
 
-export default function HomepageFeatures(): ReactNode {
-  const rows: FeatureItem[][] = [];
-  for (let i = 0; i < FeatureList.length; i += 3) {
-    rows.push(FeatureList.slice(i, i + 3));
-  }
+type FeatureGroup = {
+  title: string;
+  links: string[];
+};
 
+const FeatureGroups: FeatureGroup[] = [
+  {
+    title: translate({
+      id: 'homepage.groups.visma',
+      message: 'Visma',
+      description: 'Heading for the Visma product group',
+    }),
+    links: [
+      '/leap-visma-employees/intro',
+      '/leap-visma-payroll/intro',
+      '/leap-visma-expense/intro',
+      '/leap-visma-calendar/intro',
+      '/leap-visma-dimension/intro',
+    ],
+  },
+  {
+    title: translate({
+      id: 'homepage.groups.finance-documents',
+      message: 'Finance & Documents',
+      description: 'Heading for the Finance & Documents product group',
+    }),
+    links: [
+      '/enkel-ehf/intro',
+      '/sparebank1-factoring/intro',
+      '/leap-sign/intro',
+    ],
+  },
+  {
+    title: translate({
+      id: 'homepage.groups.logistics',
+      message: 'Logistics',
+      description: 'Heading for the Logistics product group',
+    }),
+    links: [
+      '/freja-integration/intro',
+      '/leap-vehicle-registration/intro',
+    ],
+  },
+];
+
+function toRows(features: FeatureItem[]): FeatureItem[][] {
+  const rows: FeatureItem[][] = [];
+  for (let i = 0; i < features.length; i += 3) {
+    rows.push(features.slice(i, i + 3));
+  }
+  return rows;
+}
+
+export default function HomepageFeatures(): ReactNode {
   return (
     <section className={styles.features}>
       <div className="container">
-        {rows.map((row, rowIdx) => (
-          <div key={rowIdx} className="row" style={{justifyContent: 'center'}}>
-            {row.map((props) => (
-              <Feature key={props.link} {...props} />
-            ))}
-          </div>
-        ))}
+        {FeatureGroups.map((group) => {
+          const features = group.links
+            .map((link) => FeatureList.find((feature) => feature.link === link))
+            .filter((feature): feature is FeatureItem => feature !== undefined);
+          return (
+            <div key={group.title} className={styles.group}>
+              <Heading as="h2" className={clsx('text--center', styles.groupTitle)}>
+                {group.title}
+              </Heading>
+              {toRows(features).map((row, rowIdx) => (
+                <div key={rowIdx} className="row" style={{justifyContent: 'center'}}>
+                  {row.map((props) => (
+                    <Feature key={props.link} {...props} />
+                  ))}
+                </div>
+              ))}
+            </div>
+          );
+        })}
       </div>
     </section>
   );
