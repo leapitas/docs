@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Gjeldende",
+    "description": "The label for version current"
+  },
+  "sidebar.sparebank1FactoringSidebar.category.Setup": {
+    "message": "Oppsett",
+    "description": "The label for category Setup in sidebar sparebank1FactoringSidebar"
+  },
+  "sidebar.sparebank1FactoringSidebar.category.Usage": {
+    "message": "Bruk",
+    "description": "The label for category Usage in sidebar sparebank1FactoringSidebar"
+  }
+}

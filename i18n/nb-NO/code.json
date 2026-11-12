@@ -59,6 +59,14 @@
     "message": "Kobler Business Central direkte med Freja tredjepartslogistikk (3PL). Send informasjon om plukk- og mottak, varesynkronisering.",
     "description": "Description for Freja Integrasjon feature"
   },
+  "homepage.features.sparebank1-factoring.title": {
+    "message": "Sparebank1 Factoring",
+    "description": "Title for Sparebank1 Factoring feature"
+  },
+  "homepage.features.sparebank1-factoring.description": {
+    "message": "Factoring av fakturaer og kreditnotaer via SpareBank 1 Factoring. Eksporter bokførte dokumenter med PDF-kopier, og importer transaksjonene som kommer tilbake til finanskladden.",
+    "description": "Description for Sparebank1 Factoring feature"
+  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"
