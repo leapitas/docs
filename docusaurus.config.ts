@@ -106,6 +106,15 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'leap-visma-calendar',
+        path: 'leap-visma-calendar/docs',
+        routeBasePath: 'leap-visma-calendar',
+        sidebarPath: './sidebars-leap-visma-calendar.ts',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'leap-visma-dimension',
         path: 'leap-visma-dimension/docs',
         routeBasePath: 'leap-visma-dimension',
@@ -203,6 +212,13 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'leapVismaCalendarSidebar',
+          docsPluginId: 'leap-visma-calendar',
+          position: 'left',
+          label: 'Visma Calendar Import',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'leapVismaDimensionSidebar',
           docsPluginId: 'leap-visma-dimension',
           position: 'left',
@@ -256,6 +272,10 @@ const config: Config = {
             {
               label: 'Visma Expense Import',
               to: '/leap-visma-expense/intro',
+            },
+            {
+              label: 'Visma Calendar Import',
+              to: '/leap-visma-calendar/intro',
             },
             {
               label: 'Visma Dimension Integration',

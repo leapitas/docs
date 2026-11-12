@@ -43,6 +43,14 @@
     "message": "Automatisk import av godkjente reiseregninger og utlegg fra Visma Expense for enkel prosjekt- og finansbokføring i Business Central.",
     "description": "Description for Visma Expense Import feature"
   },
+  "homepage.features.visma-calendar.title": {
+    "message": "Visma Calendar Import",
+    "description": "Title for Visma Calendar Import feature"
+  },
+  "homepage.features.visma-calendar.description": {
+    "message": "Importerer timer registrert i Visma Calendar til prosjektkladden i Business Central, med prosjekt, prosjektoppgave, arbeidstype og dimensjoner.",
+    "description": "Description for Visma Calendar Import feature"
+  },
   "homepage.features.visma-dimension.title": {
     "message": "Visma Dimension Integration",
     "description": "Title for Visma Dimension Integration feature"

@@ -17,6 +17,9 @@ Automated employee data synchronization between Visma HRM systems and Business C
 ### Leap Visma Payroll Import
 Complete payroll integration solution that automatically imports payroll transactions from Visma Payroll into Business Central with full financial posting and account mapping.
 
+### Leap Visma Calendar Import
+Imports hours registered in Visma Calendar to the project journal in Business Central, with project, project task, work type and dimensions, ready to be reviewed and posted.
+
 ### Leap Visma Dimension Integration
 Keeps the cost units in Visma Payroll up to date from Business Central. Dimension values, projects and project tasks are sent to Visma Payroll automatically when they are created, changed or deleted.
 

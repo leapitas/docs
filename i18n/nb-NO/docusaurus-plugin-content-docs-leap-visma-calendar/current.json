@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Gjeldende",
+    "description": "The label for version current"
+  },
+  "sidebar.leapVismaCalendarSidebar.category.Setup": {
+    "message": "Oppsett",
+    "description": "The label for category Setup in sidebar leapVismaCalendarSidebar"
+  },
+  "sidebar.leapVismaCalendarSidebar.category.Usage": {
+    "message": "Bruk",
+    "description": "The label for category Usage in sidebar leapVismaCalendarSidebar"
+  }
+}
