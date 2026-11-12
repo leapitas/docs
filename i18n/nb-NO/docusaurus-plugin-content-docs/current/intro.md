@@ -17,6 +17,9 @@ Synkronisering av ansattdata mellom Visma HRM-systemer og Business Central. Elim
 ### Leap Visma Payroll Import
 Komplett lønnsintegrasjonsløsning som automatisk importerer lønnstransaksjoner fra Visma Payroll til Business Central med bokføring mot finans og mulighet for kontotilordning.
 
+### Sparebank1 Factoring
+Factoring av fakturaer og kreditnotaer via SpareBank 1 Factoring. Eksporter bokførte dokumenter med PDF-kopier, og importer transaksjonene som kommer tilbake til finanskladden.
+
 ## Kom i gang
 
 Hver produktseksjon inkluderer:

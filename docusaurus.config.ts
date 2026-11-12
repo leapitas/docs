@@ -124,6 +124,15 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'sparebank1-factoring',
+        path: 'sparebank1-factoring/docs',
+        routeBasePath: 'sparebank1-factoring',
+        sidebarPath: './sidebars-sparebank1-factoring.ts',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'legal',
         path: 'legal/docs',
         routeBasePath: 'legal',
@@ -198,6 +207,13 @@ const config: Config = {
           label: 'Freja Integration',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'sparebank1FactoringSidebar',
+          docsPluginId: 'sparebank1-factoring',
+          position: 'left',
+          label: 'Sparebank1 Factoring',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
         },
@@ -232,6 +248,10 @@ const config: Config = {
             {
               label: 'Freja Integration',
               to: '/freja-integration/intro',
+            },
+            {
+              label: 'Sparebank1 Factoring',
+              to: '/sparebank1-factoring/intro',
             },
           ],
         },

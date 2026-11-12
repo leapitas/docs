@@ -22,5 +22,9 @@
   "item.label.Freja Integration": {
     "message": "Freja Integrasjon",
     "description": "Navbar item with label Freja Integration"
+  },
+  "item.label.Sparebank1 Factoring": {
+    "message": "Sparebank1 Factoring",
+    "description": "Navbar item with label Sparebank1 Factoring"
   }
 }

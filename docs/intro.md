@@ -17,6 +17,9 @@ Automated employee data synchronization between Visma HRM systems and Business C
 ### Leap Visma Payroll Import
 Complete payroll integration solution that automatically imports payroll transactions from Visma Payroll into Business Central with full financial posting and account mapping.
 
+### Sparebank1 Factoring
+Factoring of sales invoices and credit memos through SpareBank 1 Factoring. Export posted documents with PDF copies, and import the returned transactions to the general journal.
+
 ## Getting Started
 
 Each product section includes:

@@ -121,6 +121,24 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/freja-integration/intro',
   },
+  {
+    title: translate({
+      id: 'homepage.features.sparebank1-factoring.title',
+      message: 'Sparebank1 Factoring',
+      description: 'Title for Sparebank1 Factoring feature',
+    }),
+    image: 'img/factoring-logo-final.png',
+    description: (
+      <>
+        {translate({
+          id: 'homepage.features.sparebank1-factoring.description',
+          message: 'Factoring of sales invoices and credit memos through SpareBank 1 Factoring. Export posted documents with PDF copies, and import the returned transactions to the general journal.',
+          description: 'Description for Sparebank1 Factoring feature',
+        })}
+      </>
+    ),
+    link: '/sparebank1-factoring/intro',
+  },
 ];
 
 function Feature({title, image, description, link}: FeatureItem) {
@@ -140,22 +158,21 @@ function Feature({title, image, description, link}: FeatureItem) {
 }
 
 export default function HomepageFeatures(): ReactNode {
-  const firstRowFeatures = FeatureList.slice(0, 3);
-  const secondRowFeatures = FeatureList.slice(3);
+  const rows: FeatureItem[][] = [];
+  for (let i = 0; i < FeatureList.length; i += 3) {
+    rows.push(FeatureList.slice(i, i + 3));
+  }
 
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
-          {firstRowFeatures.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
-        <div className="row" style={{justifyContent: 'center'}}>
-          {secondRowFeatures.map((props, idx) => (
-            <Feature key={idx + 3} {...props} />
-          ))}
-        </div>
+        {rows.map((row, rowIdx) => (
+          <div key={rowIdx} className="row" style={{justifyContent: 'center'}}>
+            {row.map((props) => (
+              <Feature key={props.link} {...props} />
+            ))}
+          </div>
+        ))}
       </div>
     </section>
   );
