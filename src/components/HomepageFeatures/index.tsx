@@ -87,6 +87,24 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: translate({
+      id: 'homepage.features.visma-calendar.title',
+      message: 'Visma Calendar Import',
+      description: 'Title for Visma Calendar Import feature',
+    }),
+    image: 'img/calendar-logo-final.png',
+    description: (
+      <>
+        {translate({
+          id: 'homepage.features.visma-calendar.description',
+          message: 'Imports hours registered in Visma Calendar to the project journal in Business Central, with project, project task, work type and dimensions.',
+          description: 'Description for Visma Calendar Import feature',
+        })}
+      </>
+    ),
+    link: '/leap-visma-calendar/intro',
+  },
+  {
+    title: translate({
       id: 'homepage.features.visma-dimension.title',
       message: 'Visma Dimension Integration',
       description: 'Title for Visma Dimension Integration feature',

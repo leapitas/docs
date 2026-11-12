@@ -17,6 +17,9 @@ Synkronisering av ansattdata mellom Visma HRM-systemer og Business Central. Elim
 ### Leap Visma Payroll Import
 Komplett lønnsintegrasjonsløsning som automatisk importerer lønnstransaksjoner fra Visma Payroll til Business Central med bokføring mot finans og mulighet for kontotilordning.
 
+### Leap Visma Calendar Import
+Importerer timer registrert i Visma Calendar til prosjektkladden i Business Central, med prosjekt, prosjektoppgave, arbeidstype og dimensjoner, klare til å kontrolleres og bokføres.
+
 ### Leap Visma Dimension Integration
 Holder kostnadsbærerne i Visma Payroll oppdatert fra Business Central. Dimensjonsverdier, prosjekter og prosjektoppgaver sendes automatisk til Visma Payroll når de opprettes, endres eller slettes.
 
