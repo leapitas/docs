@@ -26,6 +26,9 @@ Keeps the cost units in Visma Payroll up to date from Business Central. Dimensio
 ### Sparebank1 Factoring
 Factoring of sales invoices and credit memos through SpareBank 1 Factoring. Export posted documents with PDF copies, and import the returned transactions to the general journal.
 
+### Leap Vehicle Registration
+Preregistration of imported vehicles with Statens vegvesen directly from Business Central. Vehicles are created from vehicle templates, manually or when they are received, and sent as IVI documents.
+
 ## Getting Started
 
 Each product section includes:

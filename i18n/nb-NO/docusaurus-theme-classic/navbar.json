@@ -34,5 +34,9 @@
   "item.label.Visma Calendar Import": {
     "message": "Visma Calendar Import",
     "description": "Navbar item with label Visma Calendar Import"
+  },
+  "item.label.Vehicle Registration": {
+    "message": "Vehicle Registration",
+    "description": "Navbar item with label Vehicle Registration"
   }
 }

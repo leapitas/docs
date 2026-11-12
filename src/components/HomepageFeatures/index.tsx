@@ -175,6 +175,24 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/sparebank1-factoring/intro',
   },
+  {
+    title: translate({
+      id: 'homepage.features.vehicle-registration.title',
+      message: 'Vehicle Registration',
+      description: 'Title for Vehicle Registration feature',
+    }),
+    image: 'img/vehicle-registration-logo-final.png',
+    description: (
+      <>
+        {translate({
+          id: 'homepage.features.vehicle-registration.description',
+          message: 'Preregister imported vehicles with Statens vegvesen directly from Business Central, using vehicle templates and IVI documents.',
+          description: 'Description for Vehicle Registration feature',
+        })}
+      </>
+    ),
+    link: '/leap-vehicle-registration/intro',
+  },
 ];
 
 function Feature({title, image, description, link}: FeatureItem) {

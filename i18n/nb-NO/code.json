@@ -83,6 +83,14 @@
     "message": "Factoring av fakturaer og kreditnotaer via SpareBank 1 Factoring. Eksporter bokførte dokumenter med PDF-kopier, og importer transaksjonene som kommer tilbake til finanskladden.",
     "description": "Description for Sparebank1 Factoring feature"
   },
+  "homepage.features.vehicle-registration.title": {
+    "message": "Vehicle Registration",
+    "description": "Title for Vehicle Registration feature"
+  },
+  "homepage.features.vehicle-registration.description": {
+    "message": "Preregistrer importerte kjøretøy hos Statens vegvesen direkte fra Business Central, med kjøretøymaler og IVI-dokumenter.",
+    "description": "Description for Vehicle Registration feature"
+  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"

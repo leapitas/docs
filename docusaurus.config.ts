@@ -151,6 +151,15 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'leap-vehicle-registration',
+        path: 'leap-vehicle-registration/docs',
+        routeBasePath: 'leap-vehicle-registration',
+        sidebarPath: './sidebars-leap-vehicle-registration.ts',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'legal',
         path: 'legal/docs',
         routeBasePath: 'legal',
@@ -246,6 +255,13 @@ const config: Config = {
           label: 'Sparebank1 Factoring',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'leapVehicleRegistrationSidebar',
+          docsPluginId: 'leap-vehicle-registration',
+          position: 'left',
+          label: 'Vehicle Registration',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
         },
@@ -292,6 +308,10 @@ const config: Config = {
             {
               label: 'Sparebank1 Factoring',
               to: '/sparebank1-factoring/intro',
+            },
+            {
+              label: 'Vehicle Registration',
+              to: '/leap-vehicle-registration/intro',
             },
           ],
         },

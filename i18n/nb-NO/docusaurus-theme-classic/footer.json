@@ -42,5 +42,9 @@
   "link.item.label.Visma Calendar Import": {
     "message": "Visma Calendar Import",
     "description": "The label of footer link with label=Visma Calendar Import linking to /leap-visma-calendar/intro"
+  },
+  "link.item.label.Vehicle Registration": {
+    "message": "Vehicle Registration",
+    "description": "The label of footer link with label=Vehicle Registration linking to /leap-vehicle-registration/intro"
   }
 }
