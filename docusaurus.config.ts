@@ -106,6 +106,15 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'leap-visma-dimension',
+        path: 'leap-visma-dimension/docs',
+        routeBasePath: 'leap-visma-dimension',
+        sidebarPath: './sidebars-leap-visma-dimension.ts',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'enkel-ehf',
         path: 'enkel-ehf/docs',
         routeBasePath: 'enkel-ehf',
@@ -194,6 +203,13 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'leapVismaDimensionSidebar',
+          docsPluginId: 'leap-visma-dimension',
+          position: 'left',
+          label: 'Visma Dimension Integration',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'enkelEhfSidebar',
           docsPluginId: 'enkel-ehf',
           position: 'left',
@@ -240,6 +256,10 @@ const config: Config = {
             {
               label: 'Visma Expense Import',
               to: '/leap-visma-expense/intro',
+            },
+            {
+              label: 'Visma Dimension Integration',
+              to: '/leap-visma-dimension/intro',
             },
             {
               label: 'Enkel EHF',

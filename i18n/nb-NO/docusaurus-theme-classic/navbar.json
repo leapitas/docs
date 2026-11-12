@@ -26,5 +26,9 @@
   "item.label.Sparebank1 Factoring": {
     "message": "Sparebank1 Factoring",
     "description": "Navbar item with label Sparebank1 Factoring"
+  },
+  "item.label.Visma Dimension Integration": {
+    "message": "Visma Dimension Integration",
+    "description": "Navbar item with label Visma Dimension Integration"
   }
 }
