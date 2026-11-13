@@ -132,7 +132,7 @@ All content was migrated from Confluence with these transformations:
 - All products integrate with Microsoft Dynamics 365 Business Central
 
 ### Product Integration
-- **Leap Sign**: Uses Visma Sign as signature provider
+- **Leap Sign**: Uses Netvisor Sign as signature provider
 - **Enkel EHF**: Electronic invoicing via PEPPOL network with PEPPOL 3.0 compliance
 - **Visma Imports**: Connect to Visma HRM/Payroll systems via API
 - **Legal Compliance**: Norwegian law jurisdiction, GDPR compliant

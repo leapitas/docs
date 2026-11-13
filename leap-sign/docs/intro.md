@@ -1,5 +1,5 @@
 # About Leap Sign
-Leap Sign enables electronic signatures directly within Business Central. The connector is compatible with third-party signature solutions such as Visma Sign.
+Leap Sign enables electronic signatures directly within Business Central. The connector is compatible with third-party signature solutions such as Netvisor Sign.
 
 ## Key Features
 

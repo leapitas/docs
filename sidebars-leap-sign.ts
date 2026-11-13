@@ -9,7 +9,7 @@ const sidebars: SidebarsConfig = {
       label: 'Electronic Signature Providers',
       collapsed: false,
       items: [        
-        'visma-sign',
+        'netvisor-sign',
       ],
     },
     'signing-document-overview',
