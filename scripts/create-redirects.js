@@ -5,6 +5,31 @@ async function createRedirects() {
   const buildDir = path.join(__dirname, '..', 'build');
   const enUSDir = path.join(buildDir, 'en-US');
 
+  // Visma Sign was renamed to Netvisor Sign: keep the old page URLs working
+  const renamedPages = [
+    { from: 'leap-sign/visma-sign', to: '/leap-sign/netvisor-sign/' },
+    { from: 'nb-NO/leap-sign/visma-sign', to: '/nb-NO/leap-sign/netvisor-sign/' },
+  ];
+  for (const page of renamedPages) {
+    const pageRedirectHTML = `<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <link rel="canonical" href="${page.to}">
+    <script>window.location.replace('${page.to}' + window.location.search + window.location.hash);</script>
+    <meta http-equiv="refresh" content="0; url=${page.to}">
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>`;
+    const destDir = path.join(buildDir, page.from);
+    await fs.ensureDir(destDir);
+    await fs.writeFile(path.join(destDir, 'index.html'), pageRedirectHTML);
+    console.log(`Created redirect /${page.from}/ -> ${page.to}`);
+  }
+
   console.log('Creating redirect structure for /en-US/* -> /*');
 
   // Create en-US directory

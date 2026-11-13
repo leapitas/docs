@@ -1,5 +1,5 @@
 # Om Leap Sign
-Leap Sign muliggjør elektroniske signaturer direkte i Business Central. Konnektoren er kompatibel med tredjeparts signaturløsninger som Visma Sign.
+Leap Sign muliggjør elektroniske signaturer direkte i Business Central. Konnektoren er kompatibel med tredjeparts signaturløsninger som Netvisor Sign.
 
 ## Hovedfunksjoner
 
