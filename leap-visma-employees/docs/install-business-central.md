@@ -2,15 +2,15 @@
 This page provides an introduction to how you can install Leap Visma Employees Import in Dynamics 365 Business Central.
 
 :::info Login
-If you need to log in to AppSource, use your Microsoft 365 user. This is usually the same user you log in to Dynamics 365 Business Central with.
+If you need to log in to Microsoft Marketplace, use your Microsoft 365 user. This is usually the same user you log in to Dynamics 365 Business Central with.
 :::
 
-## Microsoft AppSource
-Leap Visma Employees Import is available on Microsoft AppSource.
+## Microsoft Marketplace
+Leap Visma Employees Import is available on Microsoft Marketplace.
 
 ### Installation Steps
 
-1. **Go to Microsoft AppSource** and search for "Leap Visma Employees Import"
+1. **Go to Microsoft Marketplace** and search for "Leap Visma Employees Import"
 2. **Click on the correct link** in the search results
 3. **Select "Free Trial"**
 4. **Leap Visma Employees Import** will now be installed in Business Central

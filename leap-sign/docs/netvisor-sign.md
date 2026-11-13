@@ -15,7 +15,7 @@ Before the onboarding process please prepare the steps below.
 If your company isn't currently using Netvisor Sign's services, you'll need to contact Netvisor Sign to become a customer.
 
 ### 2. Download the Business Central App
-If you have not already installed the Netvisor Sign App for Business Central, then please install it from [Microsoft AppSource](https://appsource.microsoft.com/).
+If you have not already installed the Netvisor Sign App for Business Central, then please install it from [Microsoft Marketplace](https://marketplace.microsoft.com/).
 
 ### 3. Verify Permission Sets in Business Central
 Make sure that the user(s) that is supposed to use Leap Sign has the following permission set assigned: **LEALSUSER**.

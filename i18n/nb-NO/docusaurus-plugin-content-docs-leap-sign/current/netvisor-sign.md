@@ -15,7 +15,7 @@ Før onboarding-prosessen, vennligst forbered trinnene nedenfor.
 Hvis selskapet ditt ikke bruker Netvisor Sign sine tjenester for øyeblikket, må du kontakte Netvisor Sign for å bli kunde.
 
 ### 2. Last ned Business Central appen
-Hvis du ikke allerede har installert Netvisor Sign Appen for Business Central, vennligst installer den fra [Microsoft AppSource](https://appsource.microsoft.com/).
+Hvis du ikke allerede har installert Netvisor Sign Appen for Business Central, vennligst installer den fra [Microsoft Marketplace](https://marketplace.microsoft.com/).
 
 ### 3. Verifiser tillatelsessett i Business Central
 Sørg for at brukeren(e) som skal bruke Leap Sign har følgende tillatelsessett tildelt: **LEALSUSER**.

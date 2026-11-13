@@ -2,7 +2,7 @@
 
 To install Leap Visma Expense Import, you need to have already installed the app "Leap Visma Employees Import". In most cases, you should not pay extra for this app. The exception is if you want to post to finance and use the employees in Visma Employee as employees in Business Central.
 
-1. Go to https://appsource.microsoft.com/ and search for Leap Visma Employees Import. Click on the link in the search results.
+1. Go to https://marketplace.microsoft.com/ and search for Leap Visma Employees Import. Click on the link in the search results.
 2. Select Free Trial. Leap Visma Employees Import will now be installed in Business Central.
 
 Contact us and we will send an app file that can be installed in your Business Central environment. The app is installed as follows:
